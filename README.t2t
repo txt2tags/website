@@ -5,7 +5,7 @@ txt2tags website README
 %!encoding: utf-8
 
 % Output file name contains no .aat extension
-%!options(aat): -o README
+%!options(aat): -o README --chars=unicode
 
 Here you will find the files for the full txt2tags website.
 
