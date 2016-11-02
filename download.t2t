@@ -38,7 +38,7 @@ Download & Run
 %!preproc: _GENTOO_URL      http://packages.gentoo.org/package/app-text/txt2tags
 % http://gentoo-portage.com/app-text/txt2tags
 %!preproc: _NETBSD_URL      http://pkgsrc.se/wip/txt2tags
-%!preproc: _OPENBSD_URL     http://ports.openbsd.nu/textproc/txt2tags
+%!preproc: _OPENBSD_URL     http://openports.se/textproc/txt2tags
 %!preproc: _REDHAT_URL      http://packages.sw.be/txt2tags/
 %!preproc: _SLACKWARE_URL   http://txt2tags.javila.net
 %!preproc: _UBUNTU_URL      http://packages.ubuntu.com/txt2tags
