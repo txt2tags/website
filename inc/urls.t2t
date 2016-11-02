@@ -22,7 +22,7 @@
 
 %%!preproc: {URLDOWNLOAD}       http://sourceforge.net/project/showfiles.php?group_id=32237
 %%!preproc: {URLDOWNLOAD}        http://prdownloads.sourceforge.net/txt2tags/txt2tags-2.4.tgz?download
-%!preproc: {URLDOWNLOAD}        http://txt2tags.googlecode.com/files/txt2tags-2.6.tgz
+%!preproc: {URLDOWNLOAD}        https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz
 %!preproc: {URLFEED}            http://txt2tags.wordpress.com/feed/
 
 %!preproc: {URLPDA}             http://txt2tags-pda.sourceforge.net
@@ -154,5 +154,5 @@
 
 %!preproc: {PO_MS}              {URLPO}/ms.po
 
-%!preproc: {URLPO}              http://txt2tags.googlecode.com/svn/trunk/po
+%!preproc: {URLPO}              https://raw.githubusercontent.com/txt2tags/txt2tags/master/po
 

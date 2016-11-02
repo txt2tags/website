@@ -29,8 +29,7 @@ Download & Run
 %!preproc: _UBUNTU_NAME     Ubuntu
 
 % Link database
-%!preproc: _TGZ_URL         http://txt2tags.googlecode.com/files/txt2tags-2.6.tgz
-%!preproc: _DMG_URL         http://rudix.googlecode.com/files/txt2tags-2.6-0.dmg
+%!preproc: _TGZ_URL         https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz
 %!preproc: _HOMEBREW_URL    http://mxcl.github.com/homebrew/
 %!preproc: _ARCH_URL        http://www.archlinux.org/packages/community/any/txt2tags/
 %!preproc: _CENTOS_URL      http://packages.sw.be/txt2tags/
@@ -85,8 +84,6 @@ Download & Run
 
 == Mac OS X ==
 
-- [txt2tags-2.6-0.dmg _DMG_URL]
-
 - _MACPORTS_NAME: ``_MACPORTS_CMD``
 - _HOMEBREW_NAME: ``_HOMEBREW_CMD``
 
@@ -114,7 +111,8 @@ Download & Run
 
 === Notes: ===
 
-- Requires [Python 2 http://www.python.org/download/releases/2.7/] (works from 2.2 to 2.7). --It won't work in Python 3-- **UPDATE:** [@jbvsmo http://twitter.com/jbvsmo] ported the code to work in Python 3, [try it out http://txt2tags.googlecode.com/svn/branches/python3/txt2tags]!
+- Requires [Python 2 http://www.python.org/download/releases/2.7/] (works from 2.2 to 2.7). --It won't work in Python 3--
+% **UPDATE:** [@jbvsmo http://twitter.com/jbvsmo] ported the code to work in Python 3, [try it out http://txt2tags.googlecode.com/svn/branches/python3/txt2tags]!
 
 - This release news are detailed in the [blog announce http://txt2tags.wordpress.com/2010/11/05/txt2tags-26/].
 

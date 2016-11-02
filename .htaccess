@@ -14,13 +14,13 @@ RemoveHandler .py
 
 # Linking SVN files directly from Google Code
 # Note: These used to be symlinks in my local folder
-Redirect temp /po                  http://txt2tags.googlecode.com/svn/trunk/po
-Redirect temp /sample.t2t          http://txt2tags.googlecode.com/svn/trunk/samples/sample.t2t
-Redirect temp /test                http://txt2tags.googlecode.com/svn/trunk/test/http/web
+Redirect temp /po                  https://raw.githubusercontent.com/txt2tags/txt2tags/master/po
+Redirect temp /sample.t2t          https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t
+Redirect temp /test                https://raw.githubusercontent.com/txt2tags/txt2tags/master/test/http/web
 Redirect temp /tools               http://txt2tags.googlecode.com/svn/trunk/extras
-Redirect temp /txt2tags            http://txt2tags.googlecode.com/svn/trunk/old/txt2tags-2.6.py
-Redirect temp /txt2tags.py         http://txt2tags.googlecode.com/svn/trunk/old/txt2tags-2.6.py
-Redirect temp /txt2tags-0.1.py.txt http://txt2tags.googlecode.com/svn/trunk/old/txt2tags-0.1.py
+Redirect temp /txt2tags            https://raw.githubusercontent.com/txt2tags/txt2tags/2.6/txt2tags
+Redirect temp /txt2tags.py         https://raw.githubusercontent.com/txt2tags/txt2tags/2.6/txt2tags
+Redirect temp /txt2tags-0.1.py.txt https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-0.1.py
 
 # Moved files
 Redirect permanent /comments.php             http://txt2tags.wordpress.com/user-comments/
