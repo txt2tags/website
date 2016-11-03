@@ -117,15 +117,6 @@ Because they add the website layout around the GitHub document.
 
 ## Special updates 
 
-### Update txt2tags online (PHP version)
-
-The only difference from GitHub is the `$is_standalone = 0`. Run this:
-
-```
-cd txt2tags/website/
-sed '/^\$is_standalone = 1;$/ s/1/0/' ../extras/txt2tags.php > online.phps
-```
-
 ### Update executable version (http://txt2tags.org/txt2tags.py)
 
 It must always point to the current stable release.
