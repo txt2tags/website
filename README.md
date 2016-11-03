@@ -1,6 +1,6 @@
 # txt2tags website
 
-Here you will find the files for the full txt2tags website.
+Here you will find the files for the full http://txt2tags.org website.
 
 After editing a source `.t2t` file, remember to convert it.
 A single `txt2tags file.t2t` is enough, since all the conversion
