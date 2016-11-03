@@ -7,45 +7,38 @@ A single `txt2tags file.t2t` is enough, since all the conversion
 options are inside the file itself.
 
 **IMPORTANT:** Please preview the results in your browser before
-committing the changes to the SVN.
+committing the changes to GitHub.
 
 After the commit, your changes will take some time to appear at
 the txt2tags website. A cronjob at the web server will do a
-`svn update` once a day at noon. You don't need to worry about it.
+`git pull` once a day at noon (UTC). You don't need to worry about it.
 
 Some files seems to be missing. But they're not! They're included
-directly from the SVN. See .htaccess for details.
+directly from GitHub. See `.htaccess` for details.
 
-## Linking SVN files 
+## Linking GitHub files 
 
-There's a copy of `trunk/doc/` inside the web server root, so just use:
-
-http://txt2tags.org/doc/
-
+There's a copy of https://github.com/txt2tags/doc inside the web server root,
+so just use http://txt2tags.org/doc/
 as the base URL to link any document inside it. HTML documents will be
 rendered and UTF-8 is the default encoding, so you won't have any
 problem showing a document. For example, to link the French man page:
 
 http://txt2tags.org/doc/French/manpage-fr.html
 
-To show files that are not inside the `/trunk/doc/` folder, use the
-Google Code direct link. The trunk root URL is:
+To show files that are not inside the `/doc` folder, use the
+GitHub raw link. The raw root URL is:
 
-http://txt2tags.googlecode.com/svn/trunk/
+https://raw.githubusercontent.com/txt2tags/txt2tags/master/
 
 So, for example, to make a link to the Creole sample:
 
-http://txt2tags.googlecode.com/svn/trunk/samples/sample.creole
+https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.creole
 
-There's two caveats:
+There's one caveat: HTML files won't be rendered, their sources will be shown:
 
-1. HTML files won't be rendered, their sources will be shown:
+https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.html
 
-    http://txt2tags.googlecode.com/svn/trunk/samples/sample.html
-
-2. Google Code does not serve documents as UTF-8 :(
-
-    http://txt2tags.googlecode.com/svn/trunk/po/fr.po
 
 ## Docs path 
 
@@ -53,10 +46,9 @@ The `doc` folder is special for the website. Its location changes in
 the web server, to be contained inside the root folder.
 
 ```
-SVN structure:
-    trunk/doc/
-    trunk/website/
-    trunk/website/index.html
+GitHub structure:
+    https://github.com/txt2tags/doc
+    https://github.com/txt2tags/website
 
 Web server structure:
     /index.html
@@ -75,9 +67,14 @@ the `doc/` path. Example:
 See the [Markup Demo](doc/English/markup/markup.html) document.
 ```
 
+You must have both [txt2tags/website](https://github.com/txt2tags/website)
+and [txt2tags/doc](https://github.com/txt2tags/doc) repositories
+cloned in your machine, inside the same directory.
+
+
 ## .htaccess 
 
-The magic of using other SVN files in the website happens here.
+The magic of using other GitHub files in the website happens here.
 Redirection of moved and deleted files too.
 
 If you don't know what htaccess is, please DO NOT edit it.
@@ -92,62 +89,66 @@ If you alter files inside the `inc` folder, such as `config.t2t` or
 `footer.t2t`, you will need to reconvert all the files.
 
 ```
-cd txt2tags-svn/website/
-../extras/html-update.sh -f -c
+cd ~/github/txt2tags/website/
+../tools/html-update.sh -f -c
 txt2tags sample-full.t2t
 ```
+
+You must have both [txt2tags/website](https://github.com/txt2tags/website)
+and [txt2tags/tools](https://github.com/txt2tags/tools) repositories
+cloned in your machine, inside the same directory.
 
 > Note: An error will appear when converting `index-old.t2t`.
 > That's ok, this file isn't meant to be converted.
 
 ## Update docs 
 
-The docs and their translations are read directly from SVN. A cronjob
+The docs and their translations are read directly from GitHub. A cronjob
 at the web server will keep them updated. You don't need to worry
 about it.
 
 The only exceptions, that need to be converted manually are:
 
-- trunk/website/sample-full.t2t
-- trunk/website/manpage.t2t
-- trunk/website/markup.t2t
+- website/sample-full.t2t
+- website/manpage.t2t
+- website/markup.t2t
 
-Because they add the website layout around the SVN document.
+Because they add the website layout around the GitHub document.
 
 ## Special updates 
 
 ### Update txt2tags online (PHP version)
 
-The only difference from SVN is the `$is_standalone = 0`. Run this:
+The only difference from GitHub is the `$is_standalone = 0`. Run this:
 
 ```
-cd txt2tags-svn/website/
+cd txt2tags/website/
 sed '/^\$is_standalone = 1;$/ s/1/0/' ../extras/txt2tags.php > online.phps
 ```
 
 ### Update executable version (http://txt2tags.org/txt2tags.py)
 
 It must always point to the current stable release.
-Edit `.htaccess` and search for these lines:
+Edit `.htaccess` and search for lines like these:
 
 ```
-Redirect temp /txt2tags     http://txt2tags.googlecode.com/svn/trunk/old/txt2tags-2.6.py
-Redirect temp /txt2tags.py  http://txt2tags.googlecode.com/svn/trunk/old/txt2tags-2.6.py
+Redirect temp /txt2tags     https://raw.githubusercontent.com/txt2tags/txt2tags/2.6/txt2tags
+Redirect temp /txt2tags.py  https://raw.githubusercontent.com/txt2tags/txt2tags/2.6/txt2tags
 ```
 
 ### Update markup.zip
 
 ```
-cd txt2tags-svn/website/
+cd txt2tags/website/
 rm -f markup.zip
-cd ../doc/English && zip -q -r $OLDPWD/markup.zip markup -x "markup/.svn/*" && cd -
+cd ../doc/English && zip -q -r $OLDPWD/markup.zip markup && cd -
 unzip -l markup.zip
 ```
 
 ### Update User Guide
 
 ```
-./txt2tags-svn/doc/English/userguide/htmlgen
+./txt2tags/doc/English/userguide/htmlgen
 ```
 
 ## Legacy files 
