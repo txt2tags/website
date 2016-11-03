@@ -42,7 +42,6 @@ Code
   <li id="menudownload"><a href="./download.html">Download</a></li>
   <li id="menuchangelog"><a href="./changelog.html">Changelog</a></li>
   <li id="menutools"><a href="./tools.html">Tools</a></li>
-  <li><a href="http://bugs.txt2tags.org">Bug tracker</a></li>
   <li><a href="https://github.com/txt2tags/txt2tags">GitHub</a></li>
   </ul>
 Community
