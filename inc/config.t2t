@@ -16,7 +16,7 @@
 % clear for all your CSS trips.
 %!options: --css-sugar
 
-% New option in SVN version of txt2tags to fix the path of CSS files,
+% New option in GitHub version of txt2tags to fix the path of CSS files,
 % images and local links. Thanks to this option, I can refer to
 % site.css in the %!style setting above and each converted file will
 % have the CSS file relative path correctly set.

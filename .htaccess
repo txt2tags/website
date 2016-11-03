@@ -12,7 +12,7 @@ AddDefaultCharset UTF-8
 # DreamHost: do not execute /txt2tags.py, just show its contents
 RemoveHandler .py
 
-# Linking SVN files directly from Google Code
+# Linking files directly from GitHub
 # Note: These used to be symlinks in my local folder
 Redirect temp /po                  https://raw.githubusercontent.com/txt2tags/txt2tags/master/po
 Redirect temp /sample.t2t          https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t
@@ -100,7 +100,7 @@ Redirect gone /v2.conf
 ### BEWARE! Rewrite magic ahead ### 
 #
 # The following rules are needed to avoid symlinks inside the website folder.
-# The /doc folder is in fact a "svn checkout" of the /trunk/doc folder.
+# The /doc folder is in fact a "git clone" of the /txt2tags/doc repository.
 
 RewriteEngine on
 RewriteBase /

@@ -13,8 +13,6 @@
 %!preproc: {URLT2TPT}           http://txt2tags.org/pt/
 %!preproc: {URLONLINE}          http://txt2tags.org/online.php
 %!preproc: {URLONLINEPT}        http://txt2tags.org/pt/online.php
-%!preproc: {URLT2TSVN}          http://svn.txt2tags.org
-%!preproc: {URLT2TGCODE}        http://code.google.com/p/txt2tags/
 
 %!preproc: {URLBLOG}            http://txt2tags.wordpress.com
 %%!preproc: {URLDONATE}          http://sourceforge.net/donate/index.php?user_id=1345338

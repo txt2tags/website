@@ -206,9 +206,9 @@ See how easy it was to add the DokuWiki target to txt2tags. This file is in the 
 
 = Another real-world example =
 
-Directly from the txt2tags SVN, see how easy the BBCode target was added:
+Directly from GitHub, see how easy the BBCode target was added:
 
-http://code.google.com/p/txt2tags/source/detail?r=410
+https://github.com/txt2tags/txt2tags/commit/2146a32ea7416c3ccc0c6ca8b4a8f30248c5d6f0
 
 Click in "expand all" to see the code. The green part is the new code.
 
