@@ -169,9 +169,9 @@ Once again, copy & paste the entry of an already added target to make your life 
 And that's it! Now your target is fully added to the txt2tags program!
 
 Tips:
-- If in your target the ``urlMark`` order is reversed (label comes before the link) use the following rule: ``'labelbeforelink':1``. See how this change was made in [r450 http://code.google.com/p/txt2tags/source/detail?r=450].
+- If in your target the ``urlMark`` order is reversed (label comes before the link) use the following rule: ``'labelbeforelink':1``. See how this change was made in [f8d7e9 https://github.com/txt2tags/txt2tags/commit/f8d7e9826ec5d80185418209c0e9c2522c5ea1f9].
 
-- If in your target the nested lists are defined by the number of ``*``, for example ``**`` for sublists and ``***`` for subsublists, use ``listItemLine`` instead ``listItemOpen``, remove the ``keeplistindent`` setting and turn on ``spacedlistitemopen``. See how this change was made in [r181 http://code.google.com/p/txt2tags/source/detail?r=181]. Example:
+- If in your target the nested lists are defined by the number of ``*``, for example ``**`` for sublists and ``***`` for subsublists, use ``listItemLine`` instead ``listItemOpen``, remove the ``keeplistindent`` setting and turn on ``spacedlistitemopen``. See how this change was made in [f936c6 https://github.com/txt2tags/txt2tags/commit/f936c603790dfc3dbdf4fddf3ce90463b5b96a71]. Example:
 ```
 # getTags
 'listItemOpen': '* ',                     * mother list
