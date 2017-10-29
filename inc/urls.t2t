@@ -47,22 +47,22 @@
 
 %!preproc: {DOCFEATURES}        /features.html
 %!preproc: {DOCMARKUP}          /markup.html
-%!preproc: {DOCRULES}           /rules.html
+%!preproc: {DOCRULES}           /doc/English/rules.html
 %!preproc: {DOCSAMPLE}          /sample.html
 %!preproc: {DOCABUSEME}         /abuseme.html
 %!preproc: {DOCMAN}             /manpage.html
-%!preproc: {DOCBOOK}            /writing-book.html
+%!preproc: {DOCBOOK}            /doc/English/writing-book.html
 %!preproc: {DOCUSERGUIDE}       /userguide/
 %!preproc: {DOCRELEASES}        /releases.html
-%!preproc: {DOCQUICKREF}        /txt2tags-quickref.pdf
+%!preproc: {DOCQUICKREF}        /doc/English/txt2tags-quickref.pdf
 
 %!preproc: {DOCMARKUPSRC}       /markup.zip
-%!preproc: {DOCRULESSRC}        /rules.t2t
+%!preproc: {DOCRULESSRC}        /doc/English/rules.t2t
 %!preproc: {DOCSAMPLESRC}       /sample.t2t
 %!preproc: {DOCMANSRC}          /manpage.t2t
-%!preproc: {DOCBOOKSRC}         /writing-book.t2t
+%!preproc: {DOCBOOKSRC}         /doc/English/writing-book.t2t
 %!preproc: {DOCUSERGUIDESRC}    /userguide/userguide.t2t
-%!preproc: {DOCQUICKREFSRC}     /txt2tags-quickref.odt
+%!preproc: {DOCQUICKREFSRC}     /doc/English/txt2tags-quickref.odt
 
 %!preproc: {DOCMARKUPPT}        /doc/Portuguese/markup-pt.html
 %!preproc: {DOCSAMPLEPT}        /doc/Portuguese/sample-pt.html
