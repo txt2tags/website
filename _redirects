@@ -22,7 +22,7 @@
 /v2.html                  /v2/index.html				301
 /v2.t2t                   /v2/index.t2t					301
 
-# Seems to work out of the box
+# Seems to work out of the box (Netlify does URL normalization)
 # User Guide titles are now lowercased
 #/userguide/Encoding.html /userguide/encoding.html	301
 #/userguide/Options.html  /userguide/options.html	301
