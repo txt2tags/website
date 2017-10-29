@@ -15,5 +15,5 @@ txt2tags(1) man page
 %!postproc: '(</BODY>)'   '<a style="position:fixed;top:0;left:5;background:white;" href="/">« txt2tags.org</a>\1'
 
 % Get man page contents directly from the original source
-%!include: ../doc/English/manpage.t2t
+%!include: ./doc/English/manpage.t2t
 

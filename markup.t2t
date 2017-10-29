@@ -32,6 +32,6 @@ The following table is a live demonstration of the marks.
 
 
 % Get contents directly from the original source
-%!include: ../doc/English/markup/markup.t2t
+%!include: ./doc/English/markup/markup.t2t
 
 %!include: inc/footer.t2t

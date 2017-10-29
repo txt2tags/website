@@ -26,7 +26,7 @@ Comprehensive samples
 %!include: inc/menu.t2t
 
 % Read Sample File contents directly from main git repo
-%!include: ../txt2tags/samples/sample.t2t
+%!include: https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t
 
 % Add the website footer
 %!include: inc/footer.t2t

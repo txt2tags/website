@@ -24,6 +24,6 @@ Getting better, not bloated
 %!include: inc/menu.t2t
 
 % Get changelog contents directly from the SVN
-%!include: ../ChangeLog.t2t
+%!include: https://raw.githubusercontent.com/txt2tags/txt2tags/master/ChangeLog.t2t
 
 %!include: inc/footer.t2t
