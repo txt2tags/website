@@ -22,6 +22,27 @@
 /v2.html                  /v2/index.html				301
 /v2.t2t                   /v2/index.t2t					301
 
+# Map language codes to the respective folder inside /doc
+# Note: Using Rewrite (200) instead Redirect to preserve the code at the URL.
+# Note: this is legacy, but some scripts depend on the code at the URL.
+/ca/*     /doc/Catalan/:splat          200
+/cs/*     /doc/Czech/:splat            200
+/de/*     /doc/German/:splat           200
+/de_LU/*  /doc/Luxembourgish/:splat    200
+/eo/*     /doc/Esperanto/:splat        200
+/es/*     /doc/Spanish/:splat          200
+/eu/*     /doc/Basque/:splat           200
+/fi/*     /doc/Finnish/:splat          200
+/fr/*     /doc/French/:splat           200
+/hu/*     /doc/Hungarian/:splat        200
+/zh/*     /doc/Chinese/:splat          200
+/it/*     /doc/Italian/:splat          200
+/ja/*     /doc/Japanese/:splat         200
+/pt/*     /doc/Portuguese/:splat       200
+/ru/*     /doc/Russian/:splat          200
+/sv/*     /doc/Swedish/:splat          200
+/uk/*     /doc/Ukrainian/:splat        200
+
 # Seems to work out of the box (Netlify does URL normalization)
 # User Guide titles are now lowercased
 #/userguide/Encoding.html /userguide/encoding.html	301
