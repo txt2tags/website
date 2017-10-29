@@ -9,6 +9,8 @@ options are inside the file itself.
 **IMPORTANT:** Please preview the results in your browser before
 committing the changes to GitHub.
 
+Please avoid mixed content: always use **https links**.
+
 After the commit, your changes will take some time to appear at
 the txt2tags website. A cronjob at the web server will do a
 `git pull` once a day at noon (UTC). You don't need to worry about it.

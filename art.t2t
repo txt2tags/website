@@ -6,9 +6,9 @@ Pretty pixels
 %!postproc: '(?i)(</title>)'	' art\1'
 
 % Use remote images instead local
-%!postproc: img/valid-css.png	http://www.w3.org/Icons/valid-css.png
-%!postproc: img/valid-html.png	http://www.w3.org/Icons/valid-html40.png
-%!postproc: img/valid-xhtml.png	http://www.w3.org/Icons/valid-xhtml10.png
+%!postproc: img/valid-css.png	https://www.w3.org/Icons/valid-css.png
+%!postproc: img/valid-html.png	https://www.w3.org/Icons/valid-html40.png
+%!postproc: img/valid-xhtml.png	https://www.w3.org/Icons/valid-xhtml10.png
 
 %!includeconf: inc/config.t2t
 

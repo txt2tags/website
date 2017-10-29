@@ -13,7 +13,7 @@ We have the Dream Team
 
 % Gravatar remote images
 %!preproc: '<gravatar:([0-9a-f]+)>'     '<gravatar/\1.png>'
-%!postproc: '(?i)src=".*?gravatar/([0-9a-f]+).png"'  'src="http://www.gravatar.com/avatar/\1?d=mm&amp;s=96"'
+%!postproc: '(?i)src=".*?gravatar/([0-9a-f]+).png"'  'src="https://www.gravatar.com/avatar/\1?d=mm&amp;s=96"'
 
 % Magic (no country, with country)
 %!preproc: '^<><(.*?)><(.*?)> (.*)'        ''<tr>''\n''<td class="pic">''[[img/\1] \2]''</td>''\n''<td valign="top">''**\3**
