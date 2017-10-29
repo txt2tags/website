@@ -53,8 +53,8 @@
 #/userguide/Target.html   /userguide/target.html	301
 
 # Portuguese User Guide has a new filemane
-/pt/guia-usuario.html /pt/userguide-pt.html	310
-/pt/guia-usuario.t2t  /pt/userguide-pt.t2t	310
+/pt/guia-usuario.html  /doc/Portuguese/userguide-pt.html  301
+/pt/guia-usuario.t2t   /doc/Portuguese/userguide-pt.t2t   301
 
 # Portuguese version of the website is gone (except docs)
 /pt/PageMaker-HOWTO.html	410
