@@ -1,0 +1,85 @@
+# Linking files directly from GitHub
+# Note: These used to be symlinks in my local folder
+/po                  https://raw.githubusercontent.com/txt2tags/txt2tags/master/po			302
+/sample.t2t          https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t	302
+/test                https://raw.githubusercontent.com/txt2tags/txt2tags/master/test/http/web		302
+/tools               https://raw.githubusercontent.com/txt2tags/tools/master/				302
+/txt2tags            https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags		302
+/txt2tags.py         https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags		302
+/txt2tags-0.1.py.txt https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-0.1.py		302
+
+# Moved files
+/comments.php             http://txt2tags.wordpress.com/user-comments/	301
+/txt2tags.rss             http://txt2tags.wordpress.com/feed/		301
+/oldnews.html             /misc/oldnews.html				301
+/oldnews.t2t              /misc/oldnews.t2t				301
+/site.css                 /inc/site.css					301
+/userguide/userguide.html /userguide/					301
+/v2-news.html             /v2/news.html					301
+/v2-news.t2t              /v2/news.t2t					301
+/v2-upgrade.html          /v2/upgrade.html				301
+/v2-upgrade.t2t           /v2/upgrade.t2t				301
+/v2.html                  /v2/index.html				301
+/v2.t2t                   /v2/index.t2t					301
+
+# Seems to work out of the box
+# User Guide titles are now lowercased
+#/userguide/Encoding.html /userguide/encoding.html	301
+#/userguide/Options.html  /userguide/options.html	301
+#/userguide/PostProc.html /userguide/postproc.html	301
+#/userguide/PreProc.html  /userguide/preproc.html	301
+#/userguide/Style.html    /userguide/style.html		301
+#/userguide/Target.html   /userguide/target.html	301
+
+# Portuguese User Guide has a new filemane
+/pt/guia-usuario.html /pt/userguide-pt.html	310
+/pt/guia-usuario.t2t  /pt/userguide-pt.t2t	310
+
+# Portuguese version of the website is gone (except docs)
+/pt/PageMaker-HOWTO.html	410
+/pt/art.html			410
+/pt/art.t2t			410
+/pt/changelog.html		410
+/pt/changelog.t2t		410
+/pt/docs.html			410
+/pt/docs.t2t			410
+/pt/download.html		410
+/pt/download.t2t		410
+/pt/features.html		410
+/pt/features.t2t		410
+/pt/index.t2t			410
+/pt/irc-11set.html		410
+/pt/irc-11set.t2t		410
+/pt/ml.html			410
+/pt/ml.t2t			410
+/pt/online.t2t			410
+/pt/sample-full.t2t		410
+/pt/shots.html			410
+/pt/shots.t2t			410
+/pt/team.html			410
+/pt/team.t2t			410
+/pt/tools.html			410
+/pt/tools.t2t			410
+/pt/txt2tags			410
+/pt/txt2tags-pt.rss		410
+/pt/v23-news.html		410
+/pt/v23-news.t2t		410
+
+# Save some old Portuguese pages for reference
+/pt/enquete.html  /misc/pt-enquete.html 	301
+/pt/enquete.t2t   /misc/pt-enquete.t2t		301
+/pt/comments.html /misc/pt-comentarios.html	301
+/pt/comments.t2t  /misc/pt-comentarios.t2t	301
+
+# Redirect some important old Portuguese pages to the english version
+/pt               /		301
+/pt/              /		301
+/pt/index.html    /		301
+/pt/online.php    /online.php	301
+
+# Old stuff that's gone
+/donate.t2t	410
+/donate.html	410
+/src/		410
+/rss.sed	410
+/v2.conf	410
