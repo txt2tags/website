@@ -64,91 +64,91 @@
 %!preproc: {DOCUSERGUIDESRC}    /userguide/userguide.t2t
 %!preproc: {DOCQUICKREFSRC}     /txt2tags-quickref.odt
 
-%!preproc: {DOCMARKUPPT}        /pt/markup-pt.html
-%!preproc: {DOCSAMPLEPT}        /pt/sample-pt.html
-%!preproc: {DOCSAMPLEPTSRC}     /pt/sample-pt.t2t
-%!preproc: {DOCMANPT}           /pt/manpage-pt.html
-%!preproc: {DOCBOOKPT}          /pt/writing-book-pt.html
-%!preproc: {DOCUSERGUIDEPT}     /pt/userguide-pt.html
-%!preproc: {DOCQUICKREFPT}      /pt/txt2tags-quickref-pt.pdf
-%!preproc: {DOCQUICKREFPTUSER}  /pt/txt2tags-ref-jic-leslie.pdf
+%!preproc: {DOCMARKUPPT}        /doc/Portuguese/markup-pt.html
+%!preproc: {DOCSAMPLEPT}        /doc/Portuguese/sample-pt.html
+%!preproc: {DOCSAMPLEPTSRC}     /doc/Portuguese/sample-pt.t2t
+%!preproc: {DOCMANPT}           /doc/Portuguese/manpage-pt.html
+%!preproc: {DOCBOOKPT}          /doc/Portuguese/writing-book-pt.html
+%!preproc: {DOCUSERGUIDEPT}     /doc/Portuguese/userguide-pt.html
+%!preproc: {DOCQUICKREFPT}      /doc/Portuguese/txt2tags-quickref-pt.pdf
+%!preproc: {DOCQUICKREFPTUSER}  /doc/Portuguese/txt2tags-ref-jic-leslie.pdf
 %!preproc: {PO_PT}              {URLPO}/pt_BR.po
 
-%!preproc: {DOCMARKUPFR}        /fr/markup-fr.html
-%!preproc: {DOCSAMPLEFR}        /fr/sample-fr.html
-%!preproc: {DOCMANFR}           /fr/manpage-fr.html
-%!preproc: {DOCBOOKFR}          /fr/writing-book-fr.html
-%!preproc: {DOCQUICKREFFR}      /fr/txt2tags-quickref-fr.pdf
-%!preproc: {DOCUSERGUIDEFR}     /fr/userguide-fr.pdf
+%!preproc: {DOCMARKUPFR}        /doc/French/markup-fr.html
+%!preproc: {DOCSAMPLEFR}        /doc/French/sample-fr.html
+%!preproc: {DOCMANFR}           /doc/French/manpage-fr.html
+%!preproc: {DOCBOOKFR}          /doc/French/writing-book-fr.html
+%!preproc: {DOCQUICKREFFR}      /doc/French/txt2tags-quickref-fr.pdf
+%!preproc: {DOCUSERGUIDEFR}     /doc/French/userguide-fr.pdf
 %!preproc: {PO_FR}              {URLPO}/fr.po
 
-%!preproc: {DOCMARKUPES}        /es/markup-es.html
-%!preproc: {DOCSAMPLEES}        /es/sample-es.html
-%!preproc: {DOCABUSEMEES}       /es/abuseme-es.html
-%!preproc: {DOCQUICKREFES}      /es/txt2tags-quickref-es.pdf
-%!preproc: {DOCUSERGUIDEES}     /es/userguide-es.pdf
-%!preproc: {DOCMANES}           /es/manpage-es.html
-%!preproc: {DOCBOOKES}          /es/writing-book-es.html
+%!preproc: {DOCMARKUPES}        /doc/Spanish/markup-es.html
+%!preproc: {DOCSAMPLEES}        /doc/Spanish/sample-es.html
+%!preproc: {DOCABUSEMEES}       /doc/Spanish/abuseme-es.html
+%!preproc: {DOCQUICKREFES}      /doc/Spanish/txt2tags-quickref-es.pdf
+%!preproc: {DOCUSERGUIDEES}     /doc/Spanish/userguide-es.pdf
+%!preproc: {DOCMANES}           /doc/Spanish/manpage-es.html
+%!preproc: {DOCBOOKES}          /doc/Spanish/writing-book-es.html
 %!preproc: {PO_ES}              {URLPO}/es.po
 
-%!preproc: {DOCMARKUPCA}        /ca/markup-ca.html
-%!preproc: {DOCSAMPLECA}        /ca/sample-ca.html
-%!preproc: {DOCMANCA}           /ca/manpage-ca.html
-%!preproc: {DOCQUICKREFCA}      /ca/txt2tags-quickref-ca.pdf
+%!preproc: {DOCMARKUPCA}        /doc/Catalan/markup-ca.html
+%!preproc: {DOCSAMPLECA}        /doc/Catalan/sample-ca.html
+%!preproc: {DOCMANCA}           /doc/Catalan/manpage-ca.html
+%!preproc: {DOCQUICKREFCA}      /doc/Catalan/txt2tags-quickref-ca.pdf
 
-%!preproc: {DOCSAMPLEHU}        /hu/sample-hu.html
-%!preproc: {DOCMARKUPHU}        /hu/markup-hu.html
-%!preproc: {DOCQUICKREFHU}      /hu/txt2tags-quickref-hu.pdf
+%!preproc: {DOCSAMPLEHU}        /doc/Hungarian/sample-hu.html
+%!preproc: {DOCMARKUPHU}        /doc/Hungarian/markup-hu.html
+%!preproc: {DOCQUICKREFHU}      /doc/Hungarian/txt2tags-quickref-hu.pdf
 %!preproc: {PO_HU}              {URLPO}/hu.po
 
-%!preproc: {DOCMARKUPDE}        /de/markup-de.html
-%!preproc: {DOCSAMPLEDE}        /de/sample-de.html
-%!preproc: {DOCMANDE}           /de/manpage-de.html
-%!preproc: {DOCQUICKREFDE}      /de/txt2tags-quickref-de.pdf
-%!preproc: {DOCUSERGUIDEDE}     /de/userguide-de.pdf
+%!preproc: {DOCMARKUPDE}        /doc/German/markup-de.html
+%!preproc: {DOCSAMPLEDE}        /doc/German/sample-de.html
+%!preproc: {DOCMANDE}           /doc/German/manpage-de.html
+%!preproc: {DOCQUICKREFDE}      /doc/German/txt2tags-quickref-de.pdf
+%!preproc: {DOCUSERGUIDEDE}     /doc/German/userguide-de.pdf
 %!preproc: {URLQUICKREFDEUSER}  http://www.jamesie.de/txt2tags/txt2tags-refcard.pdf
-%!preproc: {DOCBOOKDE}          /de/writing-book-de.html
+%!preproc: {DOCBOOKDE}          /doc/German/writing-book-de.html
 %!preproc: {PO_DE}              {URLPO}/de.po
 
-%!preproc: {DOCSAMPLEZH}        /zh/sample-zh.html
-%!preproc: {DOCMARKUPZH}        /zh/markup-zh.html
-%!preproc: {DOCMANZH}           /zh/manpage-zh.html
-%!preproc: {DOCQUICKREFZH}      /zh/txt2tags-quickref-zh.pdf
-%!preproc: {DOCUSERGUIDEZH}     /zh/userguide-zh.pdf
+%!preproc: {DOCSAMPLEZH}        /doc/Chinese/sample-zh.html
+%!preproc: {DOCMARKUPZH}        /doc/Chinese/markup-zh.html
+%!preproc: {DOCMANZH}           /doc/Chinese/manpage-zh.html
+%!preproc: {DOCQUICKREFZH}      /doc/Chinese/txt2tags-quickref-zh.pdf
+%!preproc: {DOCUSERGUIDEZH}     /doc/Chinese/userguide-zh.pdf
 %!preproc: {PO_ZH}              {URLPO}/zh_CN.po
 
-%!preproc: {DOCMARKUPLU}        /de_LU/markup-de_LU.html
+%!preproc: {DOCMARKUPLU}        /doc/Luxembourgish/markup-de_LU.html
 
-%!preproc: {DOCMARKUPEU}        /eu/markup-eu.html
-%!preproc: {DOCSAMPLEEU}        /eu/sample-eu.html
-%!preproc: {DOCMANEU}           /eu/manpage-eu.html
-%!preproc: {DOCQUICKREFEU}      /eu/txt2tags-quickref-eu.pdf
+%!preproc: {DOCMARKUPEU}        /doc/Basque/markup-eu.html
+%!preproc: {DOCSAMPLEEU}        /doc/Basque/sample-eu.html
+%!preproc: {DOCMANEU}           /doc/Basque/manpage-eu.html
+%!preproc: {DOCQUICKREFEU}      /doc/Basque/txt2tags-quickref-eu.pdf
 %!preproc: {PO_EU}              {URLPO}/eu.po
 
-%!preproc: {DOCMANIT}           /it/manpage-it.html
+%!preproc: {DOCMANIT}           /doc/Italian/manpage-it.html
 %!preproc: {PO_IT}              {URLPO}/it.po
-%!preproc: {DOCSAMPLEIT}        /it/sample-it.html
+%!preproc: {DOCSAMPLEIT}        /doc/Italian/sample-it.html
 
-%!preproc: {DOCMARKUPJA}        /ja/markup-ja.html
-%!preproc: {DOCSAMPLEJA}        /ja/sample-ja.html
+%!preproc: {DOCMARKUPJA}        /doc/Japanese/markup-ja.html
+%!preproc: {DOCSAMPLEJA}        /doc/Japanese/sample-ja.html
 
-%!preproc: {DOCSAMPLEEO}        /eo/sample-eo.html
-%!preproc: {DOCMARKUPEO}        /eo/markup-eo.html
+%!preproc: {DOCSAMPLEEO}        /doc/Esperanto/sample-eo.html
+%!preproc: {DOCMARKUPEO}        /doc/Esperanto/markup-eo.html
 
-%!preproc: {DOCSAMPLEFI}        /fi/sample-fi.html
+%!preproc: {DOCSAMPLEFI}        /doc/Finnish/sample-fi.html
 %!preproc: {PO_FI}              {URLPO}/fi.po
 
-%!preproc: {DOCSAMPLEUK}        /uk/sample-uk.html
+%!preproc: {DOCSAMPLEUK}        /doc/Ukrainian/sample-uk.html
 %!preproc: {PO_UK}              {URLPO}/uk.po
 %!preproc: {DOCUSERGUIDEUK}     http://uk.wikibooks.org/wiki/Txt2tags
 
-%!preproc: {DOCMARKUPCS}        /cs/markup-cs.html
-%!preproc: {DOCSAMPLECS}        /cs/sample-cs.html
-%!preproc: {DOCQUICKREFCS}      /cs/txt2tags-quickref-cs.pdf
+%!preproc: {DOCMARKUPCS}        /doc/Czech/markup-cs.html
+%!preproc: {DOCSAMPLECS}        /doc/Czech/sample-cs.html
+%!preproc: {DOCQUICKREFCS}      /doc/Czech/txt2tags-quickref-cs.pdf
 
-%!preproc: {DOCSAMPLESV}        /sv/sample-sv.html
+%!preproc: {DOCSAMPLESV}        /doc/Swedish/sample-sv.html
 
-%!preproc: {DOCMARKUPRU}        /ru/markup-ru.html
+%!preproc: {DOCMARKUPRU}        /doc/Russian/markup-ru.html
 
 %!preproc: {PO_MS}              {URLPO}/ms.po
 
