@@ -33,8 +33,9 @@ ONE source, MULTI targets
 % Adds the RSS feed header to the page, right after <head> tag
 %!postproc: '(?i)(<head>)'	\1\n<link rel="alternate" href="http://txt2tags.wordpress.com" type="application/rss+xml">
 
-% Adds class name to the splash image
+% Adds class name to the splash images
 %!postproc: '(download-v\d+.png")'	'\1 class="splashimg"'
+%!postproc: '(download-master.png")'	'\1 class="splashimg"'
 
 % Fills the "PHP" tooltip on "About this site". See config.t2t for details.
 %!postproc: {tooltip1}	One exception: Txt2tags Online is a PHP file, because it needs to be interactive.
@@ -57,6 +58,8 @@ ONE source, MULTI targets
 
 
 % DOWNLOAD banner and (deactivated) birthday cake
+
+[[img/download-master.png] https://github.com/txt2tags/txt2tags/archive/master.zip]
 
 [[img/download-v26.png] download.html]
 
