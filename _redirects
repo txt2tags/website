@@ -1,27 +1,27 @@
 # Linking files directly from GitHub
 # Note: These used to be symlinks in my local folder
-/po                  https://github.com/txt2tags/txt2tags/tree/master/po			302
-/sample.t2t          https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t	302
-/test                https://github.com/txt2tags/txt2tags/tree/master/test/http/web		302
-/test/*              https://raw.githubusercontent.com/txt2tags/txt2tags/master/test/http/web/:splat		302
-/tools               https://github.com/txt2tags/tools				302
-/txt2tags            https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags		302
-/txt2tags.py         https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags		302
-/txt2tags-0.1.py.txt https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-0.1.py		302
+/po                   https://github.com/txt2tags/txt2tags/tree/master/po                              302
+/sample.t2t           https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t    302
+/test                 https://github.com/txt2tags/txt2tags/tree/master/test/http/web                   302
+/test/*               https://raw.githubusercontent.com/txt2tags/txt2tags/master/test/http/web/:splat  302
+/tools                https://github.com/txt2tags/tools                                                302
+/txt2tags             https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags              302
+/txt2tags.py          https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags              302
+/txt2tags-0.1.py.txt  https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-0.1.py            302
 
 # Moved files
-/comments.php             http://txt2tags.wordpress.com/user-comments/	301
-/txt2tags.rss             http://txt2tags.wordpress.com/feed/		301
-/oldnews.html             /misc/oldnews.html				301
-/oldnews.t2t              /misc/oldnews.t2t				301
-/site.css                 /inc/site.css					301
-/userguide/userguide.html /userguide/					301
-/v2-news.html             /v2/news.html					301
-/v2-news.t2t              /v2/news.t2t					301
-/v2-upgrade.html          /v2/upgrade.html				301
-/v2-upgrade.t2t           /v2/upgrade.t2t				301
-/v2.html                  /v2/index.html				301
-/v2.t2t                   /v2/index.t2t					301
+/comments.php              http://txt2tags.wordpress.com/user-comments/  301
+/txt2tags.rss              http://txt2tags.wordpress.com/feed/           301
+/oldnews.html              /misc/oldnews.html                            301
+/oldnews.t2t               /misc/oldnews.t2t                             301
+/site.css                  /inc/site.css                                 301
+/userguide/userguide.html  /userguide/                                   301
+/v2-news.html              /v2/news.html                                 301
+/v2-news.t2t               /v2/news.t2t                                  301
+/v2-upgrade.html           /v2/upgrade.html                              301
+/v2-upgrade.t2t            /v2/upgrade.t2t                               301
+/v2.html                   /v2/index.html                                301
+/v2.t2t                    /v2/index.t2t                                 301
 
 # Map language codes to the respective folder inside /doc
 # Note: Using Rewrite (200) instead Redirect to preserve the code at the URL.
@@ -46,12 +46,12 @@
 
 # Seems to work out of the box (Netlify does URL normalization)
 # User Guide titles are now lowercased
-#/userguide/Encoding.html /userguide/encoding.html	301
-#/userguide/Options.html  /userguide/options.html	301
-#/userguide/PostProc.html /userguide/postproc.html	301
-#/userguide/PreProc.html  /userguide/preproc.html	301
-#/userguide/Style.html    /userguide/style.html		301
-#/userguide/Target.html   /userguide/target.html	301
+#/userguide/Encoding.html  /userguide/encoding.html  301
+#/userguide/Options.html   /userguide/options.html   301
+#/userguide/PostProc.html  /userguide/postproc.html  301
+#/userguide/PreProc.html   /userguide/preproc.html   301
+#/userguide/Style.html     /userguide/style.html     301
+#/userguide/Target.html    /userguide/target.html    301
 
 # Portuguese User Guide has a new filemane
 /pt/guia-usuario.html  /doc/Portuguese/userguide-pt.html  301
@@ -88,16 +88,16 @@
 /pt/v23-news.t2t          /410.html  410
 
 # Save some old Portuguese pages for reference
-/pt/enquete.html  /misc/pt-enquete.html 	301
-/pt/enquete.t2t   /misc/pt-enquete.t2t		301
-/pt/comments.html /misc/pt-comentarios.html	301
-/pt/comments.t2t  /misc/pt-comentarios.t2t	301
+/pt/enquete.html   /misc/pt-enquete.html      301
+/pt/enquete.t2t    /misc/pt-enquete.t2t       301
+/pt/comments.html  /misc/pt-comentarios.html  301
+/pt/comments.t2t   /misc/pt-comentarios.t2t   301
 
 # Redirect some important old Portuguese pages to the english version
-/pt               /		301
-/pt/              /		301
-/pt/index.html    /		301
-/pt/online.php    /online.php	301
+/pt             /            301
+/pt/            /            301
+/pt/index.html  /            301
+/pt/online.php  /online.php  301
 
 # Old stuff that's gone
 /donate.t2t   /410.html  410
