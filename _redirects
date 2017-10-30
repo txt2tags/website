@@ -57,34 +57,34 @@
 /pt/guia-usuario.t2t   /doc/Portuguese/userguide-pt.t2t   301
 
 # Portuguese version of the website is gone (except docs)
-/pt/PageMaker-HOWTO.html	410
-/pt/art.html			410
-/pt/art.t2t			410
-/pt/changelog.html		410
-/pt/changelog.t2t		410
-/pt/docs.html			410
-/pt/docs.t2t			410
-/pt/download.html		410
-/pt/download.t2t		410
-/pt/features.html		410
-/pt/features.t2t		410
-/pt/index.t2t			410
-/pt/irc-11set.html		410
-/pt/irc-11set.t2t		410
-/pt/ml.html			410
-/pt/ml.t2t			410
-/pt/online.t2t			410
-/pt/sample-full.t2t		410
-/pt/shots.html			410
-/pt/shots.t2t			410
-/pt/team.html			410
-/pt/team.t2t			410
-/pt/tools.html			410
-/pt/tools.t2t			410
-/pt/txt2tags			410
-/pt/txt2tags-pt.rss		410
-/pt/v23-news.html		410
-/pt/v23-news.t2t		410
+/pt/PageMaker-HOWTO.html  /410.html  410
+/pt/art.html              /410.html  410
+/pt/art.t2t               /410.html  410
+/pt/changelog.html        /410.html  410
+/pt/changelog.t2t         /410.html  410
+/pt/docs.html             /410.html  410
+/pt/docs.t2t              /410.html  410
+/pt/download.html         /410.html  410
+/pt/download.t2t          /410.html  410
+/pt/features.html         /410.html  410
+/pt/features.t2t          /410.html  410
+/pt/index.t2t             /410.html  410
+/pt/irc-11set.html        /410.html  410
+/pt/irc-11set.t2t         /410.html  410
+/pt/ml.html               /410.html  410
+/pt/ml.t2t                /410.html  410
+/pt/online.t2t            /410.html  410
+/pt/sample-full.t2t       /410.html  410
+/pt/shots.html            /410.html  410
+/pt/shots.t2t             /410.html  410
+/pt/team.html             /410.html  410
+/pt/team.t2t              /410.html  410
+/pt/tools.html            /410.html  410
+/pt/tools.t2t             /410.html  410
+/pt/txt2tags              /410.html  410
+/pt/txt2tags-pt.rss       /410.html  410
+/pt/v23-news.html         /410.html  410
+/pt/v23-news.t2t          /410.html  410
 
 # Save some old Portuguese pages for reference
 /pt/enquete.html  /misc/pt-enquete.html 	301
@@ -99,8 +99,8 @@
 /pt/online.php    /online.php	301
 
 # Old stuff that's gone
-/donate.t2t	410
-/donate.html	410
-/src/		410
-/rss.sed	410
-/v2.conf	410
+/donate.t2t   /410.html  410
+/donate.html  /410.html  410
+/src/         /410.html  410
+/rss.sed      /410.html  410
+/v2.conf      /410.html  410
