@@ -1,0 +1,11 @@
+txt2tags
+
+404 - Not Found
+
+%!includeconf: inc/config.t2t
+
+%!include: inc/menu.t2t
+
+The requested resource doesn't exist on this server.
+
+%!include: inc/footer.t2t
