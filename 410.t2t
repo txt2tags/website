@@ -1,0 +1,13 @@
+txt2tags
+
+410 - Gone
+
+%!includeconf: inc/config.t2t
+
+%!include: inc/menu.t2t
+
+The requested resource is no longer available on this server and there is no forwarding address. 
+   
+Please remove all references to this resource.
+
+%!include: inc/footer.t2t
