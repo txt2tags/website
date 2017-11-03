@@ -7,11 +7,15 @@ committing the changes to GitHub.
 
 Please avoid mixed content: always use **https links**.
 
-After the commit, your changes will appear in a minute at
-the txt2tags website thanks to Netlify build and deploy.
-
 Some files seems to be missing. But they're not! They're included
 directly from GitHub. See `_redirects` for details.
+
+## Build & Deploy
+
+Every commit to the `master` branch triggers a complete site build (see [build.sh](https://github.com/txt2tags/website/blob/master/build.sh) file) and deploy in Netlify.
+
+The deploy logs are in https://app.netlify.com/sites/txt2tags/deploys.
+
 
 ## Linking GitHub files 
 
