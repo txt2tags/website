@@ -9,7 +9,7 @@
 ''' <div id="sidebar">
 
 %!include: ''menu-links.html''
-[[../img/donate.png] {URLDONATE}]
+
 
 ''' </div>
 

@@ -15,8 +15,8 @@
 %!preproc: {URLONLINEPT}        http://txt2tags.org/pt/online.php
 
 %!preproc: {URLBLOG}            http://txt2tags.wordpress.com
-%%!preproc: {URLDONATE}          http://sourceforge.net/donate/index.php?user_id=1345338
-%!preproc: {URLDONATE}           https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=verde%40aurelio%2enet&item_name=txt2tags%20donation&no_shipping=1&return=http%3a%2f%2faurelio%2enet%2fdonate%2dthanks%2ehtml&cn=&tax=0&currency_code=USD&bn=PP%2dDonationsBF&charset=UTF%2d8
+
+
 
 %%!preproc: {URLDOWNLOAD}       http://sourceforge.net/project/showfiles.php?group_id=32237
 %%!preproc: {URLDOWNLOAD}        http://prdownloads.sourceforge.net/txt2tags/txt2tags-2.4.tgz?download

@@ -46,7 +46,7 @@
 
 % Trick to add the TITLE/ALT attribute to an image
 %!postproc: '(?i)(src="[^"]*t2tpowered.png")'         '\1 title="O>OOOO"'
-%!postproc: '(?i)(src="[^"]*donate.png".*?) ALT=""'   '\1 alt="DONATE"'
+
 
 % Trick to add an automatic link to the page top title
 %!postproc: '^<H1>txt2tags</H1>$'   '<h1><a href="/">txt2tags</a></h1>'

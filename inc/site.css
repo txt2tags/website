@@ -91,13 +91,6 @@ span.tooltip:hover
 	{
 	background-color: #cf9;
 	}
-a.donate
-	{
-	font-size	: smaller;
-	text-align	: center;
-	margin		: 0;
-	padding		: 0;
-	}
 
 /***************************** HEADERS **************************** 
 / Remember that headers are the first three lines of the source file.
@@ -529,25 +522,6 @@ body#markup table td table td
 #testimonials .name
 	{
 	color		: #999;
-	}
-
-#donate .ballon
-	{
-	background	: #eee url(img/aurelio.jpg) no-repeat bottom left;
-	padding		: 2em 82px 1em 82px;
-	margin		: 3em 0 2em 1em;
-	width		: 20em;
-	border		: 5px solid #555;
-	}
-#donate .ballon p
-	{
-	font-family : skia, sans-serif;
-	text-align	: center;
-	line-height : 140%;
-	}
-#donate .ballon p:hover
-	{
-	color		: black;
 	}
 
 /* Splash download button */
