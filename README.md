@@ -17,7 +17,7 @@ Every commit to the `master` branch triggers a complete site build (see [build.s
 The deploy logs are in https://app.netlify.com/sites/txt2tags/deploys.
 
 
-## Linking GitHub files 
+## Linking GitHub files
 
 There's a copy of https://github.com/txt2tags/doc inside the web server root,
 so just use http://txt2tags.org/doc/
@@ -41,7 +41,7 @@ There's one caveat: HTML files won't be rendered, their sources will be shown:
 https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.html
 
 
-## Docs path 
+## Docs path
 
 The `doc` folder is special for the website. Its location changes in
 the web server, to be contained inside the root folder.
@@ -68,7 +68,7 @@ the `doc/` path. Example:
 See the [Markup Demo](doc/English/markup/markup.html) document.
 ```
 
-You must have the [txt2tags/doc](https://github.com/txt2tags/doc) repositorie
+You must have the [txt2tags/doc](https://github.com/txt2tags/doc) repository
 cloned in your machine, inside the [txt2tags/website](https://github.com/txt2tags/website) one.
 
 
@@ -83,26 +83,21 @@ You may break the full website doing so.
 If you're comfortable with ``.htaccess``, the comments inside the file
 should be enough to guide you.
 
-## Convert full site 
+## Convert the full site
 
 If you alter files inside the `inc` folder, such as `config.t2t` or
 `footer.t2t`, you will need to reconvert all the files.
 
 ```
-cd ~/github/txt2tags/website/
-../tools/html-update.sh -f -c
-txt2tags sample-full.t2t
+cd txt2tags/website/
+./build.sh
 ```
 
-You must have both [txt2tags/website](https://github.com/txt2tags/website)
-and [txt2tags/tools](https://github.com/txt2tags/tools) repositories
-cloned in your machine, inside the same directory.
+## Update docs
 
-## Update docs 
 
-The docs and their translations are read directly from GitHub. A cronjob
-at the web server will keep them updated. You don't need to worry
-about it.
+The docs and their translations are read directly from GitHub.
+You don't need to worry about it.
 
 The only exceptions, that need to be converted manually are:
 
@@ -112,7 +107,7 @@ The only exceptions, that need to be converted manually are:
 
 Because they add the website layout around the GitHub document.
 
-## Special updates 
+## Special updates
 
 ### Update markup.zip
 
@@ -129,7 +124,7 @@ unzip -l markup.zip
 ./txt2tags/doc/English/userguide/htmlgen
 ```
 
-## Legacy files 
+## Legacy files
 
 - index.t2t.old
 - misc/history.t2t
