@@ -1,12 +1,12 @@
 # Linking files directly from GitHub
 # Note: These used to be symlinks in my local folder
-/po                   https://github.com/txt2tags/txt2tags/tree/master/po                              302
-/sample.t2t           https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.t2t    302
-/test                 https://github.com/txt2tags/txt2tags/tree/master/test/http/web                   302
-/test/*               https://raw.githubusercontent.com/txt2tags/txt2tags/master/test/http/web/:splat  302
+/po                   https://github.com/txt2tags/txt2tags/tree/v2/po                                  302
+/sample.t2t           https://raw.githubusercontent.com/txt2tags/txt2tags/v2/samples/sample.t2t        302
+/test                 https://github.com/txt2tags/txt2tags/tree/v2/test/http/web                       302
+/test/*               https://raw.githubusercontent.com/txt2tags/txt2tags/v2/test/http/web/:splat      302
 /tools                https://github.com/txt2tags/tools                                                302
-/txt2tags             https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags              302
-/txt2tags.py          https://raw.githubusercontent.com/txt2tags/txt2tags/master/txt2tags              302
+/txt2tags             https://raw.githubusercontent.com/txt2tags/txt2tags/v2/txt2tags                  302
+/txt2tags.py          https://raw.githubusercontent.com/txt2tags/txt2tags/v2/txt2tags                  302
 /txt2tags-0.1.py.txt  https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-0.1.py            302
 
 # Moved files

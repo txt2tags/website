@@ -152,5 +152,5 @@
 
 %!preproc: {PO_MS}              {URLPO}/ms.po
 
-%!preproc: {URLPO}              https://github.com/txt2tags/txt2tags/tree/master/po
+%!preproc: {URLPO}              https://github.com/txt2tags/txt2tags/tree/v2/po
 

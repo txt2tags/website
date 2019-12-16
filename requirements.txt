@@ -1,1 +1,1 @@
-https://github.com/txt2tags/txt2tags/archive/master.zip
+https://github.com/txt2tags/txt2tags/archive/v2.zip

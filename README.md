@@ -30,15 +30,15 @@ http://txt2tags.org/doc/French/manpage-fr.html
 To show files that are not inside the `/doc` folder, use the
 GitHub raw link. The raw root URL is:
 
-https://raw.githubusercontent.com/txt2tags/txt2tags/master/
+https://raw.githubusercontent.com/txt2tags/txt2tags/v2/
 
 So, for example, to make a link to the Creole sample:
 
-https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.creole
+https://raw.githubusercontent.com/txt2tags/txt2tags/v2/samples/sample.creole
 
 There's one caveat: HTML files won't be rendered, their sources will be shown:
 
-https://raw.githubusercontent.com/txt2tags/txt2tags/master/samples/sample.html
+https://raw.githubusercontent.com/txt2tags/txt2tags/v2/samples/sample.html
 
 
 ## Docs path
