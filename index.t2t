@@ -37,11 +37,8 @@ ONE source, MULTI targets
 %!postproc: '(download-v\d+.png")'	'\1 class="splashimg"'
 %!postproc: '(download-master.png")'	'\1 class="splashimg"'
 
-% Fills the "PHP" tooltip on "About this site". See config.t2t for details.
-%!postproc: {tooltip1}	One exception: Txt2tags Online is a PHP file, because it needs to be interactive.
-
 % meta: keywords
-%!postproc: (</HEAD>)	<meta name="keywords" content="txt2tags, convert, conversion, online, text, HTML, XHTML, SGML, LaTeX, Lout, Man page, Wikipedia, Google Code Wiki, DokuWiki, MoinMoin, MagicPoint, PageMaker, Python, free, tool, markup, Linux, Mac, Windows, GPL">\n\1
+%!postproc: (</HEAD>)	<meta name="keywords" content="txt2tags, convert, conversion, text, HTML, XHTML, SGML, LaTeX, Lout, Man page, Wikipedia, Google Code Wiki, DokuWiki, MoinMoin, MagicPoint, PageMaker, Python, free, tool, markup, Linux, Mac, Windows, GPL">\n\1
 
 % meta: description
 %!postproc: (</HEAD>)	<meta name="description" content="txt2tags - Convert plain text to HTML, XHTML, SGML, LaTeX, DocBook, Lout, Man page, Creole, Wikipedia, Google Code Wiki, DokuWiki, PmWiki, MoinMoin, MagicPoint, PageMaker, AsciiDoc and ASCII Art!">\n\1
@@ -96,7 +93,6 @@ following formats:
 
 
 - Read more: [txt2tags features features.html]
-- Try it now: [txt2tags online online.php]
 - Get it: [download download.html]
 - Contribute: [GitHub https://github.com/txt2tags/txt2tags]
 
@@ -121,7 +117,6 @@ following formats:
   [Windows download.html],
   [GUI img/gui.png],
   [CLI img/help.png],
-  [Web {URLONLINE}],
   [Python http://python.org],
   [GPL http://directory.fsf.org/txt2tags.html]
 
@@ -133,7 +128,7 @@ following formats:
 == About this site ==
 
 This site is 100% powered by txt2tags and [CSS inc/site.css].
-No Javascript, CGI or [PHP #tooltip1], just plain static
+No Javascript, CGI or PHP, just plain static
 [valid {URLHTMLVALIDATOR}] HTML pages.
 
 You can read the text sources for each page, just click the "See
