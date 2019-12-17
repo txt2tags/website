@@ -308,7 +308,6 @@ body#tools #sidebar li#menutools,
 body#children #sidebar li#menuchildren,
 body#comments #sidebar li#menucomments,
 body#team #sidebar li#menuteam,
-body#ml #sidebar li#menuml,
 body#art #sidebar li#menuart
 	{
 	list-style-type : square;
