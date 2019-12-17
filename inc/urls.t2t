@@ -29,7 +29,6 @@
 %!preproc: {URLKATEPT}          http://br.geocities.com/juliano_dorneles/t2t/
 %!preproc: {URLKATE}            http://br.geocities.com/juliano_dorneles/t2t/txt2tags.xml
 %!preproc: {URLT2TMAKEPT}       http://txt2tags-win.sourceforge.net/t2tmake/t2tmake.html
-%!preproc: {URLVIMCOMPPT}       http://www.aboutwilson.net/thevims/txt2tags.html
 %!preproc: {URLGVIMMENU}        http://www.vim.org/scripts/script.php?script_id=1097
 
 %!preproc: {URLMAILING}         http://lists.sourceforge.net/lists/listinfo/txt2tags-list
