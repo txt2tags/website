@@ -58,10 +58,8 @@ Valuable tools to save your time
 - In links that point to the tool code, it's best to choose "Save as"
   instead making a copy & paste.
 
-- Some tools were made by the txt2tags author, some by kind users.
-
-- Wanna contribute? Just send your work (or a link) to the author at
-  <verde (@) aurelio net> and you will be part of our [team team/].
+- Wanna contribute? Just send your work as Pull Request to the
+  [txt2tags/tools repository https://github.com/txt2tags/tools].
 
 
 %!include: inc/footer.t2t

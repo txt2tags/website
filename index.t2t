@@ -102,9 +102,7 @@ following formats:
 % Now follows a definition list. The leading spaces are optional.
 
 : Author:
-  [Aurelio Jargas http://aurelio.net/soft/]
-  <verde (a) aurelio net>
-  [@aureliojargas http://twitter.com/aureliojargas]
+  [Aurelio Jargas https://aurelio.net/about.html]
 : Keywords:
   free,
   tool,

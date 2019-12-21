@@ -37,8 +37,8 @@ Great docs, in your language
 Help us translating a document to your language!
 You'll bring a new flag to this table and
 you'll also appear on the [Team page team/].
-Just download the sources, translate it and send it back to the
-txt2tags author at <verde (a) aurelio net>.
+Just download the sources, translate it and send it back as a Pull Request
+to the [txt2tags/doc repository https://github.com/txt2tags/doc].
 The quickest to translate are Markup Demo and Sample File.
 
 
