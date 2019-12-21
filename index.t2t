@@ -9,7 +9,7 @@ ONE source, MULTI targets
 % This is a live example of a marked up file in the txt2tags format.
 % There are some special tricks you can learn by reading.
 % As you may be wondering, lines starting with % are ignored.
-% 
+%
 % Txt2tags generates the HTML code for this text, and all the page
 % formatting (colors, sizes, fonts, blocks, position) is made on an
 % external CSS file (http://txt2tags.org/inc/site.css).
@@ -103,6 +103,8 @@ following formats:
 
 : Author:
   [Aurelio Jargas https://aurelio.net/about.html]
+: License:
+  GPLv2
 : Keywords:
   free,
   tool,
