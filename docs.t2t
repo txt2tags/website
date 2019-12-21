@@ -81,12 +81,12 @@ The quickest to translate are Markup Demo and Sample File.
 
 == Program messages (i18n) status ==
 
-''' <a href="https://www.transifex.net/projects/p/txt2tags/resource/potfile/"><img border="0" src="https://www.transifex.net/projects/p/txt2tags/resource/potfile/chart/image_png"/></a>
-
-These are the languages txt2tags (the program itself) was already translated.
+The messages in the txt2tags code were already translated to many languages.
 
 Hey, you've got some minutes? Add or improve your language!
 Do it [online {URLTRANSIFEX}], it's really quick.
 If you prefer, you can also edit the [POT file {URLPO}].
+
+See more information in the [txt2tags repository {URLPO}].
 
 %!include: inc/footer.t2t
