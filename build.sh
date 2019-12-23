@@ -7,5 +7,5 @@ git clone https://github.com/txt2tags/doc-old doc
 # Convert all t2t files, except from inc and doc folders
 find . -name '*.t2t' \
   -and -not -path './inc/*' \
-  -and -not -path './doc/*' \
-  -exec txt2tags {} \;
+  -and -not -path './doc/*' |
+  xargs -n 1 txt2tags
