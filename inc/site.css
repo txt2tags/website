@@ -456,24 +456,6 @@ body#markup table td table td {
 }
 
 
-/* The nice testimonials box */
-
-#testimonials {
-    clear: right;
-    float: right;
-    width: 18em;
-    margin: 2em 0 0 2em;
-    padding: 1em;
-    font-family: serif;
-    color: #222;
-    /* Tried outset, but the colors change on Opera */
-    border-top: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    border-right: 2px solid #999;
-    border-bottom: 2px solid #999;
-}
-
-
 /* Brighten the names to improve comments readability */
 
 #testimonials .name {

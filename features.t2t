@@ -13,7 +13,6 @@ Less is More
 %!preproc: '^(-- .*)'		''<br><span class="name">\1</span>''
 
 %!include: inc/menu.t2t
-%!include: inc/testimonials.t2t
 
 == Features ==
 
@@ -94,6 +93,8 @@ Less is More
 - **Scripting Friendly:** It can read from STDIN and write to STDOUT.
 - **Configuration:** Optional config file can store preferences and filters.
 
+
+%!include: inc/testimonials.t2t
 
 Txt2tags, the last markup you will ever learn. Hope so :)
 
