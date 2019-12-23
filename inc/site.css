@@ -167,6 +167,11 @@ span.tooltip:hover
 	font-weight : normal;
 	}
 
+#body li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
 
 /***************************** SIDEBAR **************************** 
 / The sidebar is a DIV made "by hand", inserting custom HTML code
@@ -190,58 +195,31 @@ span.tooltip:hover
 
 #sidebar
 	{
-	float		: right;
-	width		: 9.5em;
+	width		: 100%;
 	background-color: #cf9;
 	color		: #030;
-	border-color	: #fff;
-	border-style	: solid;
-	border-width	: 0 0 1px 1px;
-	margin		: 0 -2em 1em 2em;
-	padding		: 1em;
-	z-index		: 1;
-	/* IE: Box model strikes again */
-	_width		: 11.5em;
-	_margin		: 0 -1em 0 2em;
+	border-width: 0;
+	margin		: 0 -2em 1em -2em;
+	padding		: 1em 4em 1em 0em; /* padding-right = -margin-right*2 */
 	}
 #sidebar a
 	{
 	display		: block;
-	color		: #363;
 	font-weight : normal;
 	}
 #sidebar a:hover
 	{
 	background-color: #ad7;
+	text-decoration: underline;
 	}
 #sidebar ul {
 	margin		: 0 0 0 1em;
 	padding		: 0;
 }
 #sidebar ul li {
-	list-style-type : none;
-	_border		: 1px solid #cf9;  /* IE: fixes spaced items bug */
+	display: inline-block;
+	margin: 0;
 }
-#sidebar p
-	{
-	margin		: 0;
-	}
-#sidebar img
-	{
-	display		: block;
-	margin		: 1em auto 0 auto;
-	_text-align : center; /* IE: margin:auto didn't work */
-	}
-
-/* A special link with the lang ID, placed at the top/right edge */
-#sidebar a#lang
-	{
-	float		: right;
-	margin		: -1em -1em 0 0;
-	_margin-right	: -.5em; /* IE: well... */
-	font-size	: 80%;
-	}
-
 
 
 /****************************** FOOTER **************************** 
@@ -276,42 +254,6 @@ span.tooltip:hover
 	{
 	float		: right;
 	margin-left : 5px;
-	}
-
-/******* Current menu item detection
-/
-/ Now breath. This is a CSS black magic.
-/
-/ All pages use a special %!postproc to add an ID to it's <body> tag.
-/ All menu items have their own ID also.
-/ If we have unique identifiers for pages and menu items, we can
-/ combine them to know which is the item for a specific page.
-/
-/ This is what the following rules do.
-/ They add special formatting only for the current page menu item.
-/
-/ Reading the first: If we're on the #home page, add the bullet
-/ for the list item #menuhome, inside the sidebar.
-*/
-
-body#home #sidebar li#menuhome,
-body#oldnews #sidebar li#menuoldnews,
-body#features #sidebar li#menufeatures,
-body#sample #sidebar li#menusample,
-body#shots #sidebar li#menushots,
-body#docs #sidebar li#menudocs,
-body#tips #sidebar li#menutips,
-body#markup #sidebar li#menumarkup,
-body#download #sidebar li#menudownload,
-body#changelog #sidebar li#menuchangelog,
-body#tools #sidebar li#menutools,
-body#children #sidebar li#menuchildren,
-body#comments #sidebar li#menucomments,
-body#team #sidebar li#menuteam,
-body#ml #sidebar li#menuml,
-body#art #sidebar li#menuart
-	{
-	list-style-type : square;
 	}
 
 
@@ -534,3 +476,21 @@ body#home a:hover img
 	{
 	outline		: 3px solid blue;
 	}
+
+
+/************************** MOBILE **************************/
+
+@media (max-width: 600px) {
+	#body {
+		padding: 0 5px;
+		line-height: 1.3em;
+	}
+	#sidebar {
+		margin: 0 -5px 1em -5px;
+		padding: 1em 10px 1em 0em;
+	}
+	#sidebar ul {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+}
