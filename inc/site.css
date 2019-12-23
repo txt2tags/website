@@ -491,4 +491,7 @@ body#home a:hover img {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
+    img {
+        max-width: 100%;
+    }
 }
