@@ -130,7 +130,7 @@ span.tooltip:hover {
 
 /***************************** CONTENT **************************** 
 / The page contents are placed inside the #body DIV when using
-/ the --css-suggar option. Don't confuse it with the <body> tag.
+/ the --css-sugar option. Don't confuse it with the <body> tag.
 / I know it would be better to call it #content, but... too late.
 /
 / Inside #body there are the sidebar and the page contents. The
@@ -322,14 +322,6 @@ body#download tr:hover {
 
 body#new-target pre b {
     color: red;
-}
-
-
-/* Avoid pre blocks over sidebar */
-
-body#sample pre,
-body#tips pre {
-    margin-right: 12em;
 }
 
 
