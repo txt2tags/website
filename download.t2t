@@ -10,24 +10,6 @@ Download & Run
 % Mark "Sources" link for CSS formatting
 %!postproc: '(?i)(>txt2tags-2.6.tgz</A>)'	' class="sources"\1'
 
-% Name database
-%!preproc: _TGZ_NAME        Sources
-%!preproc: _DMG_NAME        Rudix package
-%!preproc: _MACPORTS_NAME   MacPorts
-%!preproc: _HOMEBREW_NAME   homebrew
-%!preproc: _ARCH_NAME       Arch
-%!preproc: _CENTOS_NAME     CentOS
-%!preproc: _DEBIAN_NAME     Debian
-%!preproc: _FEDORA_NAME     Fedora
-%!preproc: _FREEBSD_NAME    FreeBSD
-%!preproc: _GENTOO_NAME     Gentoo
-%!preproc: _NETBSD_NAME     NetBSD
-%!preproc: _OPENBSD_NAME    OpenBSD
-%!preproc: _OPENSUSE_NAME   OpenSUSE
-%!preproc: _REDHAT_NAME     Red Hat
-%!preproc: _SLACKWARE_NAME  Slackware
-%!preproc: _UBUNTU_NAME     Ubuntu
-
 % Link database
 %!preproc: _TGZ_URL         https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz
 %!preproc: _HOMEBREW_URL    http://mxcl.github.com/homebrew/
@@ -84,28 +66,28 @@ Download & Run
 
 == Mac OS X ==
 
-- _MACPORTS_NAME: ``_MACPORTS_CMD``
-- _HOMEBREW_NAME: ``_HOMEBREW_CMD``
+- MacPorts: ``_MACPORTS_CMD``
+- homebrew: ``_HOMEBREW_CMD``
 
 
 == Linux ==
 
-- [_ARCH_NAME _ARCH_URL]: ``_ARCH_CMD``
-- [_CENTOS_NAME _CENTOS_URL]: ``_CENTOS_CMD``
-- [_DEBIAN_NAME _DEBIAN_URL]: ``_DEBIAN_CMD``
-- _FEDORA_NAME: ``_FEDORA_CMD``
-- [_GENTOO_NAME _GENTOO_URL]: ``_GENTOO_CMD``
-- _OPENSUSE_NAME: ``_OPENSUSE_CMD``
-- [_REDHAT_NAME _REDHAT_URL]: ``_REDHAT_CMD``
-- _SLACKWARE_NAME: [Download tgz _SLACKWARE_URL]
-- [_UBUNTU_NAME _UBUNTU_URL]: ``_UBUNTU_CMD``
+- [Arch _ARCH_URL]: ``_ARCH_CMD``
+- [CentOS _CENTOS_URL]: ``_CENTOS_CMD``
+- [Debian _DEBIAN_URL]: ``_DEBIAN_CMD``
+- Fedora: ``_FEDORA_CMD``
+- [Gentoo _GENTOO_URL]: ``_GENTOO_CMD``
+- OpenSUSE: ``_OPENSUSE_CMD``
+- [Red Hat _REDHAT_URL]: ``_REDHAT_CMD``
+- Slackware: [Download tgz _SLACKWARE_URL]
+- [Ubuntu _UBUNTU_URL]: ``_UBUNTU_CMD``
 
 
 == BSD ==
 
-- _FREEBSD_NAME: _FREEBSD_URL
-- _NETBSD_NAME: _NETBSD_URL
-- _OPENBSD_NAME: _OPENBSD_URL
+- FreeBSD: _FREEBSD_URL
+- NetBSD: _NETBSD_URL
+- OpenBSD: _OPENBSD_URL
 
 
 ''' <br><br>
