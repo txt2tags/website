@@ -37,19 +37,6 @@ Download & Run
 %!preproc: _SLACKWARE_IMG   SITEROOT/img/distro/slackware.png
 %!preproc: _UBUNTU_IMG      SITEROOT/img/distro/ubuntu.png
 
-% Install commands database
-%!postproc: _MACPORTS_CMD   sudo port install txt2tags
-%!postproc: _HOMEBREW_CMD   brew install txt2tags
-%!postproc: _ARCH_CMD       sudo pacman -S txt2tags
-%!postproc: _GENTOO_CMD     emerge txt2tags
-%!postproc: _REDHAT_CMD     yum install txt2tags
-%!postproc: _CENTOS_CMD     yum install txt2tags
-%!postproc: _FEDORA_CMD     yum install txt2tags
-%!postproc: _DEBIAN_CMD     sudo apt-get install txt2tags
-%!postproc: _UBUNTU_CMD     sudo apt-get install txt2tags
-%!postproc: _OPENSUSE_CMD   Add the Application:Geo repository
-
-
 %!include: inc/menu.t2t
 
 == Download — All platforms ==
@@ -66,21 +53,21 @@ Download & Run
 
 == Mac OS X ==
 
-- MacPorts: ``_MACPORTS_CMD``
-- homebrew: ``_HOMEBREW_CMD``
+- MacPorts: ``sudo port install txt2tags``
+- homebrew: ``brew install txt2tags``
 
 
 == Linux ==
 
-- [Arch _ARCH_URL]: ``_ARCH_CMD``
-- [CentOS _CENTOS_URL]: ``_CENTOS_CMD``
-- [Debian _DEBIAN_URL]: ``_DEBIAN_CMD``
-- Fedora: ``_FEDORA_CMD``
-- [Gentoo _GENTOO_URL]: ``_GENTOO_CMD``
-- OpenSUSE: ``_OPENSUSE_CMD``
-- [Red Hat _REDHAT_URL]: ``_REDHAT_CMD``
+- [Arch _ARCH_URL]: ``sudo pacman -S txt2tags``
+- [CentOS _CENTOS_URL]: ``yum install txt2tags``
+- [Debian _DEBIAN_URL]: ``sudo apt-get install txt2tags``
+- Fedora: ``yum install txt2tags``
+- [Gentoo _GENTOO_URL]: ``emerge txt2tags``
+- OpenSUSE: Add the Application:Geo repository
+- [Red Hat _REDHAT_URL]: ``yum install txt2tags``
 - Slackware: [Download tgz _SLACKWARE_URL]
-- [Ubuntu _UBUNTU_URL]: ``_UBUNTU_CMD``
+- [Ubuntu _UBUNTU_URL]: ``sudo apt-get install txt2tags``
 
 
 == BSD ==
