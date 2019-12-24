@@ -90,15 +90,16 @@ Download & Run
 
 == Linux ==
 
-|       _ARCH_NAME: | ``_ARCH_CMD``     | [+info _ARCH_URL]
-|     _CENTOS_NAME: | ``_CENTOS_CMD``   | [RPM package _CENTOS_URL]
-|     _DEBIAN_NAME: | ``_DEBIAN_CMD``   | [+info _DEBIAN_URL]
-|     _FEDORA_NAME: | ``_FEDORA_CMD``   |
-|     _GENTOO_NAME: | ``_GENTOO_CMD``   | [+info _GENTOO_URL]
-|   _OPENSUSE_NAME: | ``_OPENSUSE_CMD`` |
-|     _REDHAT_NAME: | ``_REDHAT_CMD``   | [RPM package _REDHAT_URL]
-|  _SLACKWARE_NAME: |                   | [Download tgz _SLACKWARE_URL]
-|     _UBUNTU_NAME: | ``_UBUNTU_CMD``   | [+info _UBUNTU_URL]
+- [_ARCH_NAME _ARCH_URL]: ``_ARCH_CMD``
+- [_CENTOS_NAME _CENTOS_URL]: ``_CENTOS_CMD``
+- [_DEBIAN_NAME _DEBIAN_URL]: ``_DEBIAN_CMD``
+- _FEDORA_NAME: ``_FEDORA_CMD``
+- [_GENTOO_NAME _GENTOO_URL]: ``_GENTOO_CMD``
+- _OPENSUSE_NAME: ``_OPENSUSE_CMD``
+- [_REDHAT_NAME _REDHAT_URL]: ``_REDHAT_CMD``
+- _SLACKWARE_NAME: [Download tgz _SLACKWARE_URL]
+- [_UBUNTU_NAME _UBUNTU_URL]: ``_UBUNTU_CMD``
+
 
 == BSD ==
 
@@ -190,4 +191,3 @@ Download & Run
 % - Bugfix: Fixed protocol adding to uppercased URLs like ""WWW.FOO.COM""
 % - Gui: Now using a green theme, following the new website colors
 % - Spell check and Capitalization on the code comments :)
-
