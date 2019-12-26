@@ -23,7 +23,7 @@ Getting better, not bloated
 
 %!include: inc/menu.t2t
 
-% Get changelog contents directly from the SVN
-%!include: https://raw.githubusercontent.com/txt2tags/txt2tags/v2/ChangeLog.t2t
+% Get changelog contents directly from GitHub
+%!include: https://raw.githubusercontent.com/txt2tags/txt2tags/2.6/ChangeLog.t2t
 
 %!include: inc/footer.t2t

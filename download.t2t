@@ -7,156 +7,75 @@ Download & Run
 
 %!includeconf: inc/config.t2t
 
-% Mark "Sources" link for CSS formatting
-%!postproc: '(?i)(>txt2tags-2.6.tgz</A>)'	' class="sources"\1'
-
-% Link database
-%!preproc: _TGZ_URL         https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz
-%!preproc: _HOMEBREW_URL    http://mxcl.github.com/homebrew/
-%!preproc: _ARCH_URL        http://www.archlinux.org/packages/community/any/txt2tags/
-%!preproc: _CENTOS_URL      http://packages.sw.be/txt2tags/
-%!preproc: _DEBIAN_URL      http://packages.debian.org/txt2tags
-%!preproc: _FREEBSD_URL     http://www.freshports.org/textproc/txt2tags/
-%!preproc: _GENTOO_URL      http://packages.gentoo.org/package/app-text/txt2tags
-% http://gentoo-portage.com/app-text/txt2tags
-%!preproc: _NETBSD_URL      http://pkgsrc.se/wip/txt2tags
-%!preproc: _OPENBSD_URL     http://openports.se/textproc/txt2tags
-%!preproc: _REDHAT_URL      http://packages.sw.be/txt2tags/
-%!preproc: _SLACKWARE_URL   http://txt2tags.javila.net
-%!preproc: _UBUNTU_URL      http://packages.ubuntu.com/txt2tags
-
-% Icons database
-%!preproc: _TGZ_IMG         SITEROOT/img/sources.png
-%!preproc: _DMG_IMG         SITEROOT/img/distro/mac.gif
-%!preproc: _ARCH_IMG        SITEROOT/img/distro/arch.png
-%!preproc: _CENTOS_IMG      SITEROOT/img/distro/centos.png
-%!preproc: _DEBIAN_IMG      SITEROOT/img/distro/debian.png
-%!preproc: _FEDORA_IMG      SITEROOT/img/distro/fedora.png
-%!preproc: _GENTOO_IMG      SITEROOT/img/distro/gentoo.png
-%!preproc: _REDHAT_IMG      SITEROOT/img/distro/redhat.png
-%!preproc: _SLACKWARE_IMG   SITEROOT/img/distro/slackware.png
-%!preproc: _UBUNTU_IMG      SITEROOT/img/distro/ubuntu.png
-
 %!include: inc/menu.t2t
 
-== Download — All platforms ==
+== Download ==
 
-- [txt2tags-2.6.tgz _TGZ_URL] — 545 KB, released in 05 Nov 2010
+Txt2tags is a Python script, so you must have Python installed in order to run it.
 
+You can download only the ``txt2tags.py`` script itself, which is self-contained with no external dependencies, or you can download the package (tarball or Zip) that also contains documentation, tools and examples.
 
-''' <br>
+**txt2tags version 2.6:**
 
-== Windows ==
-
-- Install [Python http://www.python.org/download/releases/2.7/] and [download txt2tags /txt2tags.py]
-
-
-== Mac OS X ==
-
-- MacPorts: ``sudo port install txt2tags``
-- homebrew: ``brew install txt2tags``
+- [txt2tags.py https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-2.6.py]
+- [txt2tags.tar.gz https://github.com/txt2tags/old/raw/master/txt2tags-2.6.tgz]
+- Released in 05 Nov 2010
+- [Changelog SITEROOT/changelog.html]
+- Compatible with Python 2.2, 2.3, 2.4, 2.5, 2.6, 2.7
 
 
-== Linux ==
+**txt2tags version 2.7-dev:**
 
-- [Arch _ARCH_URL]: ``sudo pacman -S txt2tags``
-- [CentOS _CENTOS_URL]: ``yum install txt2tags``
-- [Debian _DEBIAN_URL]: ``sudo apt-get install txt2tags``
-- Fedora: ``yum install txt2tags``
-- [Gentoo _GENTOO_URL]: ``emerge txt2tags``
-- OpenSUSE: Add the Application:Geo repository
-- [Red Hat _REDHAT_URL]: ``yum install txt2tags``
-- Slackware: [Download tgz _SLACKWARE_URL]
-- [Ubuntu _UBUNTU_URL]: ``sudo apt-get install txt2tags``
+- [txt2tags.py https://raw.githubusercontent.com/txt2tags/txt2tags/v2/txt2tags]
+- [txt2tags.zip https://github.com/txt2tags/txt2tags/archive/v2.zip]
+- Live development version
+- [Changelog https://github.com/txt2tags/txt2tags/blob/v2/ChangeLog.t2t]
+- Compatible with Python 2.6, 2.7
 
 
-== BSD ==
+**txt2tags version 3.x:**
 
-- FreeBSD: _FREEBSD_URL
-- NetBSD: _NETBSD_URL
-- OpenBSD: _OPENBSD_URL
+- Available in [PyPI https://pypi.org/project/txt2tags/]: ``pip install txt2tags``
+- [Changelog https://github.com/txt2tags/txt2tags/blob/v3/CHANGELOG.md]
+- Compatible with Python 2.7, 3.5, 3.6, 3.7
 
 
-''' <br><br>
+== Which txt2tags version to use? ==
 
-=== Notes: ===
+If you only have Python 2.5 or older available, use txt2tags version **2.6**.
 
-- Requires [Python 2 http://www.python.org/download/releases/2.7/] (works from 2.2 to 2.7). --It won't work in Python 3--
-% **UPDATE:** [@jbvsmo http://twitter.com/jbvsmo] ported the code to work in Python 3, [try it out http://txt2tags.googlecode.com/svn/branches/python3/txt2tags]!
+If you only have Python 3.5 or newer available, use txt2tags version **3.x**.
 
-- This release news are detailed in the [blog announce http://txt2tags.wordpress.com/2010/11/05/txt2tags-26/].
+If you have both Python 2.7 and 3.x available, [read about the differences https://github.com/txt2tags/txt2tags/blob/master/README.md] between txt2tags 2.7-dev and 3.x to make your choice.
 
-- Read the [full list of changes changelog.html] since the last version.
 
-- See some [installation tips userguide/Installtxt2tags.html] from the User Guide.
+== Ready to install packages ==
 
-- New to txt2tags? Read [this markup.html], [this sample.html] and [this userguide/].
+For many systems, you already have the ``txt2tags`` package available. Just install it the usual way.
 
-- You can also [download just the Python script txt2tags.py], if you know what you're doing.
+=== macOS ===
 
-- Python developers can also install txt2tags as a Python module:''<br>''
-  ``easy_install -f "http://txt2tags.org/txt2tags.py#egg=txt2tags-2.6" txt2tags``
+- [homebrew https://formulae.brew.sh/formula/txt2tags]
+- [MacPorts https://www.macports.org/ports.php?by=name&substr=txt2tags]
 
-- If you have a feature request or found a bug, please [submit an issue http://bugs.txt2tags.org].
 
-% - Feeling wild today? You can download the [fresh development version from SVN http://svn.txt2tags.org]!
+=== Linux ===
 
-% - Installers not updated (they're still on old 2.3 version): [Windows {URLWIN}], [Debian {URLDEBIAN}], [Ubuntu {URLUBUNTU}], [Gentoo {URLGENTOO}], [NetBSD {URLNETBSD}], [PDA (IPK) {URLPDA}].
+- [Arch https://www.archlinux.org/packages/community/any/txt2tags/]
+- [Debian https://packages.debian.org/search?keywords=txt2tags]
+- [Fedora https://src.fedoraproject.org/rpms/txt2tags]
+- [Gentoo https://packages.gentoo.org/packages/app-text/txt2tags]
+- [Mageia https://madb.mageia.org/package/list/t_search/txt2tags/application/0]
+- [OpenSUSE https://software.opensuse.org/package/txt2tags]
+- [Slackware https://slackbuilds.org/result/?search=txt2tags&sv=]
+- [Ubuntu https://packages.ubuntu.com/search?keywords=txt2tags]
+
+
+=== BSD ===
+
+- [FreeBSD http://www.freshports.org/textproc/txt2tags/]
+- [NetBSD http://pkgsrc.se/wip/txt2tags]
+- [OpenBSD http://openports.se/textproc/txt2tags]
 
 
 %!include: inc/footer.t2t
-
-
-%%% OLD CONTENTS
-
-% | [[_TGZ_IMG] _TGZ_URL] | [txt2tags-2.6.tgz _TGZ_URL] — 545 KB, released in 05 Nov 2010
-
-% | [img/mac.gif] | [Mac OS X http://txt2tags.googlecode.com/files/txt2tags-2.5.dmg] 
-% | [img/bsd.png] | [FreeBSD http://www.freshports.org/textproc/txt2tags/], [OpenBSD http://ports.openbsd.nu/textproc/txt2tags]
-% | [img/linux.gif] | **Fedora:** ``yum install txt2tags``''<br>''**Ubuntu, Debian:** ``sudo apt-get install txt2tags`` or [download http://edermarques.net/pacotes/txt2tags/]''<br>''**Red Hat, CentOS:** [RPM package http://dag.wieers.com/rpm/packages/txt2tags/]''<br>''**Slackware:** [package http://txt2tags.javila.net]
-%
-%| [img/windows.gif] | [Windows 98/ME/2000/XP {URLWIN}]
-% [RPM distro http://mteixeira.webset.net/pub/txt2tags/]
-% [Fedora Core 6 http://www.bennewitz.com/rpms/]
-% [Fedora http://www.shsu.edu/~ajm023/txt2tags-2.5-1.fc9.noarch.rpm]
-
-
-% == txt2tags module ==
-% ```
-% $ easy_install -f "http://txt2tags.org/txt2tags.py#egg=txt2tags-2.6" txt2tags
-% Searching for txt2tags
-% Best match: txt2tags 2.6
-% Downloading http://txt2tags.org/txt2tags.py#egg=txt2tags-2.6
-% Processing txt2tags.py
-% Running setup.py -q bdist_egg --dist-dir /var/folders/ve/veFClKOFF8iCI53XVvSb8k+++TI/-Tmp-/easy_install-WbEtir/egg-dist-tmp-o2jJOu
-% zip_safe flag not set; analyzing archive contents...
-% Adding txt2tags 2.6 to easy-install.pth file
-% 
-% Installed /Library/Python/2.6/site-packages/txt2tags-2.6-py2.6.egg
-% Processing dependencies for txt2tags
-% Finished processing dependencies for txt2tags
-% 
-% $ python
-% Python 2.6.1 (r261:67515, Feb 11 2010, 00:51:29) 
-% [GCC 4.2.1 (Apple Inc. build 5646)] on darwin
-% Type "help", "copyright", "credits" or "license" for more information.
-% >>> import txt2tags
-% >>>
-% ```
-
-% == Minor Releases ==
-% 
-% A minor release is a (stable) preview of new features and fixes.
-% It's just the updated Python script, no extra files or documentation.
-% Download and move it to the current location of txt2tags on your system.
-% 
-% Version 2.3.1 2006-07-27
-% 
-% - The Style config now may be used multiple times (like **two CSS files**)
-%   <thanks Cesar Grossman @ .br for requesting>
-% - New header comment showing the CSS file path, when using --css-inside
-% - No more empty <STYLE> tag on --css-inside when CSS file is not found
-% 
-% - Bugfix: Fixed protocol adding to uppercased URLs like ""WWW.FOO.COM""
-% - Gui: Now using a green theme, following the new website colors
-% - Spell check and Capitalization on the code comments :)

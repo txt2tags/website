@@ -304,8 +304,7 @@ body#docs td img {
 
 /* Highlight table row */
 
-body#docs tr:hover,
-body#download tr:hover {
+body#docs tr:hover {
     background-color: #cf9;
 }
 
@@ -356,7 +355,6 @@ body#features li b {
 
 /* Highlight the "thanks" messages */
 
-body#download li em,
 body#changelog li em {
     color: #6c6;
     font-size: 80%;
@@ -375,34 +373,6 @@ body#changelog a.bug {
 
 body#changelog a.rev {
     font-weight: normal;
-}
-
-
-/* Back to normal bold */
-
-body#download li b {
-    font-weight: bold;
-    color: #444;
-}
-
-
-/* The sources are preferred */
-
-body#download a.sources {
-    font-size: 140%;
-}
-
-body#download td img {
-    width: 36px;
-}
-
-body#download code {
-    background-color: transparent;
-    border-width: 0;
-}
-
-body#download table {
-    border-collapse: collapse;
 }
 
 
@@ -444,19 +414,6 @@ body#markup table td table td {
 
 #testimonials .name {
     color: #999;
-}
-
-
-/* Splash download button */
-
-body#home img.splashimg {
-    display: block;
-    margin: 4em auto;
-    text-align: center;
-}
-
-body#home a:hover img {
-    outline: 3px solid blue;
 }
 
 

@@ -54,15 +54,6 @@ ONE source, MULTI targets
 %!include: inc/menu.t2t
 
 
-% DOWNLOAD banner and (deactivated) birthday cake
-
-[[img/download-master.png] https://github.com/txt2tags/txt2tags/archive/master.zip]
-
-[[img/download-v26.png] download.html]
-
-%  | [img/cake.png] | [7 years of txt2tags! http://txt2tags.wordpress.com/2008/07/26/7-years-of-txt2tags/]
-
-
 % And here's our first heading, level 2 (see the two equal signs)
 
 == About txt2tags ==
