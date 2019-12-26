@@ -37,7 +37,7 @@ You can download only the ``txt2tags.py`` script itself, which is self-contained
 
 - Available in [PyPI https://pypi.org/project/txt2tags/]: ``pip install txt2tags``
 - [Changelog https://github.com/txt2tags/txt2tags/blob/v3/CHANGELOG.md]
-- Compatible with Python 2.7, 3.5, 3.6, 3.7
+- Compatible with Python 2.7, 3.5, 3.6, 3.7, 3.8
 
 
 == Which txt2tags version to use? ==
