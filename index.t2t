@@ -65,20 +65,20 @@ following formats:
 - HTML
 - XHTML
 - SGML
-- DocBook (**NEW**)
+- DocBook
 - LaTeX
 - Lout
 - Man page
-- Creole (**NEW**)
+- Creole
 - Wikipedia / MediaWiki
 - Google Code Wiki
-- PmWiki (**NEW**)
+- PmWiki
 - DokuWiki
 - MoinMoin
 - MagicPoint
 - PageMaker
-- AsciiDoc (**NEW**)
-- ASCII Art (**NEW**)
+- AsciiDoc
+- ASCII Art
 - Plain text
 - [Add your favorite! new-target.html]
 
