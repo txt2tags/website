@@ -46,7 +46,7 @@ If you only have Python 2.5 or older available, use txt2tags version **2.6**.
 
 If you only have Python 3.5 or newer available, use txt2tags version **3.x**.
 
-If you have both Python 2.7 and 3.x available, [read about the differences https://github.com/txt2tags/txt2tags/blob/master/README.md] between txt2tags 2.7-dev and 3.x to make your choice.
+If you have both Python 2 and 3 available, [read about the differences https://github.com/txt2tags/txt2tags/blob/master/README.md] between txt2tags 2.7-dev and 3.x to make your choice.
 
 
 == Ready to install packages ==
