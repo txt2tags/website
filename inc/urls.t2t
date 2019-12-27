@@ -1,5 +1,5 @@
 
-% txt2tags source file - http://txt2tags.org
+% txt2tags source file - https://txt2tags.org
 
 % A nice database of links. I just refer to them like {URLT2T} on the
 % sources and the link is inserted when converting. Very handy to
@@ -9,17 +9,17 @@
 % preproc: replaces the text before the conversion (changes sources)
 % postproc: replaces after the conversion (changes generated code)
 
-%!preproc: {URLT2T}             http://txt2tags.org
-%!preproc: {URLT2TPT}           http://txt2tags.org/pt/
+%!preproc: {URLT2T}             https://txt2tags.org
+%!preproc: {URLT2TPT}           https://txt2tags.org/pt/
 
-%!preproc: {URLBLOG}            http://txt2tags.wordpress.com
+%!preproc: {URLBLOG}            https://txt2tags.wordpress.com
 
 
 
 %%!preproc: {URLDOWNLOAD}       http://sourceforge.net/project/showfiles.php?group_id=32237
 %%!preproc: {URLDOWNLOAD}        http://prdownloads.sourceforge.net/txt2tags/txt2tags-2.4.tgz?download
 %!preproc: {URLDOWNLOAD}        https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz
-%!preproc: {URLFEED}            http://txt2tags.wordpress.com/feed/
+%!preproc: {URLFEED}            https://txt2tags.wordpress.com/feed/
 
 %!preproc: {URLPDA}             http://txt2tags-pda.sourceforge.net
 %!preproc: {URLPDAPT}           http://txt2tags-pda.sourceforge.net/pt/
@@ -35,12 +35,12 @@
 %!preproc: {URLMAILINGPT}       http://br.groups.yahoo.com/group/txt2tags-br/
 %!preproc: {URLFAQPT}           http://www.aboutwilson.net/txt2tags/faq.html
 %!preproc: {URLORKUT}           http://www.orkut.com/Community.aspx?cmm=87935
-%!preproc: {URLWRITINGBOOK}     http://txt2tags.org/writing-book.html
+%!preproc: {URLWRITINGBOOK}     https://txt2tags.org/writing-book.html
 %!preproc: {URLPOTFILE}         {URLPO}/txt2tags.pot
 %!preproc: {URLTRANSIFEX}       http://www.transifex.net/projects/p/txt2tags/resource/potfile/
 
-%!preproc: {URLHTMLVALIDATOR}   http://validator.w3.org/check?uri=referer
-%!preproc: {URLCSSVALIDATOR}    http://jigsaw.w3.org/css-validator/check/referer
+%!preproc: {URLHTMLVALIDATOR}   https://validator.w3.org/check?uri=referer
+%!preproc: {URLCSSVALIDATOR}    https://jigsaw.w3.org/css-validator/check/referer
 
 %!preproc: {DOCFEATURES}        /features.html
 %!preproc: {DOCMARKUP}          /markup.html

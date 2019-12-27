@@ -60,9 +60,9 @@ We are a BIG family
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%% SOFTWARE %%%%%%%%%%%%%%%%%%%%%%%%%
 
-%!preproc: SOFT01_SRC http://txt2tags.org/index.t2t
+%!preproc: SOFT01_SRC https://txt2tags.org/index.t2t
 %!preproc: SOFT01_TXT Txt2tags Site
-%!preproc: SOFT01_URL http://txt2tags.org
+%!preproc: SOFT01_URL https://txt2tags.org
 %!preproc: SOFT01_LNG english
 
 %!preproc: SOFT02_SRC -
@@ -949,7 +949,7 @@ This page collects websites using txt2tags. It **used to be** bigger in the past
 But what is really cool about this page, is how this big table is generated.
 
 [Take a look at the page source %%infile] and learn how to use insane
-[Pre Processing filters http://txt2tags.org/userguide/preproc.html]
+[Pre Processing filters https://txt2tags.org/userguide/preproc.html]
 to compose a database and generate the table automatically.
 
 

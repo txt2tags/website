@@ -7,7 +7,7 @@ Less is More
 %!postproc: '(?i)(</title>)'	' features\1'
 
 % A nice shortcut
-%!preproc: URLWIKIPEDIA		http://en.wikipedia.org/wiki
+%!preproc: URLWIKIPEDIA		https://en.wikipedia.org/wiki
 
 % Mark people names for CSS formatting
 %!preproc: '^(-- .*)'		''<br><span class="name">\1</span>''
@@ -82,7 +82,7 @@ Less is More
 
 
 === Diet Python ===
-- **One-file Program:** Just a single [Python http://python.org] script, no extra files.
+- **One-file Program:** Just a single [Python https://python.org] script, no extra files.
 - **Standard Library:** Works on default Python install, no extra modules are required.
 % - **Careful Coding:** Backwards compatible, runs even on ancient Python version 1.5.
 - **Very Fast:** Even real big documents take a blink of an eye to convert.

@@ -12,14 +12,14 @@ ONE source, MULTI targets
 %
 % Txt2tags generates the HTML code for this text, and all the page
 % formatting (colors, sizes, fonts, blocks, position) is made on an
-% external CSS file (http://txt2tags.org/inc/site.css).
+% external CSS file (https://txt2tags.org/inc/site.css).
 %
 % See those first lines at the top? They are the page heading.
 %
 % Now comes some special configuration directives, starting with %!
 %
 % The config used by all pages are centralized on this file
-% (http://txt2tags.org/inc/config.t2t) and the "includeconf"
+% (https://txt2tags.org/inc/config.t2t) and the "includeconf"
 % command reads it.
 %
 %!includeconf: inc/config.t2t

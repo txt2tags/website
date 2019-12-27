@@ -51,7 +51,7 @@ Tips & Tricks
 
 %%TOC
 
-[Suggest a new tip! http://txt2tags.wordpress.com/2006/09/21/new-hot-document-tips-tricks/]
+[Suggest a new tip! https://txt2tags.wordpress.com/2006/09/21/new-hot-document-tips-tricks/]
 
 % 404 :(
 % [Chinese translation. http://www.shine-it.net/txt2tags/]
@@ -224,7 +224,7 @@ noisy and polluted. The cleaner approach is to store all the links at
 the config area, making a link bank:
 
 ```
-%!preproc: URLT2T    http://txt2tags.org
+%!preproc: URLT2T    https://txt2tags.org
 %!preproc: URLGOOGLE http://google.com?q=txt2tags+is+cool
 %!preproc: URLBLOG   http://myblog.wordpress.com/2006/10/31/foo-bar-baz
 ```
@@ -239,7 +239,7 @@ please [read my Blog URLBLOG] or [search Google URLGOOGLE].
 Compare this to the inline links (ugly) version:
 
 ```
-This site is powered by [txt2tags http://txt2tags.org].
+This site is powered by [txt2tags https://txt2tags.org].
 For more information please
 [read my Blog http://myblog.wordpress.com/2006/10/31/foo-bar-baz]
 or [search Google http://google.com?q=txt2tags+is+cool].
@@ -259,7 +259,7 @@ An evolution from the previous tip, you can put links automatically
 for any word(s) you want.
 
 ```
-%!preproc: '(?i)(txt2tags)'   '[\1 http://txt2tags.org]'
+%!preproc: '(?i)(txt2tags)'   '[\1 https://txt2tags.org]'
 %!preproc: '(Google)'         '[\1 http://google.com]'
 %!preproc: '(Yahoo! Groups)'  '[\1 http://groups.yahoo.com]'
 ```
@@ -273,7 +273,7 @@ Converting this text to XHTML:
 
 ```
 <p>
-I do use <a href="http://txt2tags.org">Txt2tags</a>,
+I do use <a href="https://txt2tags.org">Txt2tags</a>,
 <a href="http://google.com">Google</a> and
 <a href="http://groups.yahoo.com">Yahoo! Groups</a> everyday.
 </p>
@@ -771,7 +771,7 @@ txt2tags, then use the excellent HTMLDOC tool to split it. Example:
 
 You can get full instructions on how to install and use HTMLDOC with
 txt2tags on
-[this Blog post http://txt2tags.wordpress.com/2006/08/31/split-html-in-multiple-pages/].
+[this Blog post https://txt2tags.wordpress.com/2006/08/31/split-html-in-multiple-pages/].
 
 
 ++ (X)HTML: Convert HTML pages to the txt2tags markup ++[html-to-t2t]

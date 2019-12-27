@@ -12,7 +12,7 @@
 
 Last modified on %%mtime(%d %B %Y at %H:%M)
 ([See sources %%infile],
-[Validate HTML http://validator.w3.org/check?uri=referer])
+[Validate HTML https://validator.w3.org/check?uri=referer])
 
 ''' </div><div id="fake">
 % Open a fake DIV that will be closed by the old #body </div>

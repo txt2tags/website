@@ -10,8 +10,8 @@
 /txt2tags-0.1.py.txt  https://raw.githubusercontent.com/txt2tags/old/master/txt2tags-0.1.py            302
 
 # Moved files
-/comments.php              http://txt2tags.wordpress.com/user-comments/  301
-/txt2tags.rss              http://txt2tags.wordpress.com/feed/           301
+/comments.php              https://txt2tags.wordpress.com/user-comments/ 301
+/txt2tags.rss              https://txt2tags.wordpress.com/feed/          301
 /oldnews.html              /misc/oldnews.html                            301
 /oldnews.t2t               /misc/oldnews.t2t                             301
 /rules.html                /doc/English/rules.html                       301

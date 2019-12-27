@@ -20,12 +20,12 @@ The deploy logs are in https://app.netlify.com/sites/txt2tags/deploys.
 ## Linking GitHub files
 
 There's a copy of https://github.com/txt2tags/doc inside the web server root,
-so just use http://txt2tags.org/doc/
+so just use https://txt2tags.org/doc/
 as the base URL to link any document inside it. HTML documents will be
 rendered and UTF-8 is the default encoding, so you won't have any
 problem showing a document. For example, to link the French man page:
 
-http://txt2tags.org/doc/French/manpage-fr.html
+https://txt2tags.org/doc/French/manpage-fr.html
 
 To show files that are not inside the `/doc` folder, use the
 GitHub raw link. The raw root URL is:

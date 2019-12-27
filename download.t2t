@@ -73,7 +73,7 @@ For many systems, you already have the ``txt2tags`` package available. Just inst
 
 === BSD ===
 
-- [FreeBSD http://www.freshports.org/textproc/txt2tags/]
+- [FreeBSD https://www.freshports.org/textproc/txt2tags/]
 - [NetBSD http://pkgsrc.se/wip/txt2tags]
 - [OpenBSD http://openports.se/textproc/txt2tags]
 
