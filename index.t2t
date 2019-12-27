@@ -30,9 +30,6 @@ ONE source, MULTI targets
 % Note: the (?i) makes the pattern case insensitive (avoids headaches)
 %!postproc: '(?i)(<body)'	'\1 id="home"'
 
-% Adds the RSS feed header to the page, right after <head> tag
-%!postproc: '(?i)(<head>)'	\1\n<link rel="alternate" href="http://txt2tags.wordpress.com" type="application/rss+xml">
-
 % Adds class name to the splash images
 %!postproc: '(download-v\d+.png")'	'\1 class="splashimg"'
 %!postproc: '(download-master.png")'	'\1 class="splashimg"'
