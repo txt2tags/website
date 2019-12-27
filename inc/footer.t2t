@@ -10,7 +10,7 @@
 ''' <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png"></a>
 % Image sizes: 80x15 or 88x31
 
-Last modified on %%mtime(%d %B %Y at %H:%M)
+Generated on %%date(%d %B %Y at %H:%M)
 ([See sources %%infile],
 [Validate HTML https://validator.w3.org/check?uri=referer])
 
